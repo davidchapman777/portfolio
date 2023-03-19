@@ -51,7 +51,7 @@ const Projects = () => {
 export default Projects
 
 const Wrapper = styled.div`
-top: 10vh;
+top: 15vh;
 left: 0;
 right: 0;
 margin: auto;
@@ -63,9 +63,13 @@ height: 30vh;
 .title{
   position: relative;
   margin: 2vh;
+  border: .1vw solid;
+  width: 10vh;
+  margin: auto;
 }
 .projects{
-  display: flex;
+  border: .1vw solid ;
+  display: none;
   justify-content: space-between;
   .link{
   margin: auto;
@@ -75,7 +79,6 @@ height: 30vh;
   width: 22%;
   transition: .5s;
   border-radius: 10px;
-  
   .pic{
     width: 100%;
     height: 100%;
@@ -87,11 +90,17 @@ height: 30vh;
 .title:hover + .projects{
   display: flex;
 }
-
-
-
-
+.projects:hover{
+  display: flex;
+}
 .link:hover{
   transform: scale(1.1);
+}
+
+@media only screen and (min-width: 1000px) {
+ top: 15vh;
+ .projects{
+  display: flex;
+ }
 }
 `

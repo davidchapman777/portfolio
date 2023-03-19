@@ -13,20 +13,37 @@ const Info = () => {
 export default Info
 
 const Wrapper = styled.div`
-border: 0.1vw solid ;
-top: 3vh;
+top: 13vh;
 left: 0;
 right: 0;
 margin: auto;
 width: 50%;
 text-align: center;
 position: relative;
+border: .1vw solid red;
 .b{
-
+border: 0.1vw solid;
+width: 10vh;
+margin: auto;
 }
-@media only screen and (max-width: 600px) {
+.p{
+    border: 0.1vw solid;
+    width: 99%;
+    margin: auto;
+    display: none;
+    position: absolute;
+    
+}
+
+.b:hover + .p{
+    display: block;
+}
+@media only screen and (min-width: 1000px) {
   body {
     background-color: lightblue;
+  }
+  .p{
+    display: block;
   }
 }
 `
