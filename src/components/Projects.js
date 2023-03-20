@@ -71,7 +71,7 @@ position: relative;
   right: 0;
   position: relative;
   top: -5vh;
-  z-index: 0;
+  z-index: 1;
   .link{
     margin: auto;
     background: #00006a;

@@ -18,7 +18,7 @@ const Skills = () => {
           <div className="react">/</div>
         <div className="react">API's </div>
           <div className="react">/</div>
-        <div className="react">MONGO-DB </div>
+        <div className="react">MONGODB </div>
           <div className="react">/</div>
         <div className="react">MERN </div>
           <div className="react">/</div>
@@ -36,7 +36,7 @@ const Skills = () => {
           <div className="react">/</div>
         <div className="react">API's </div>
           <div className="react">/</div>
-        <div className="react">MONGO-DB </div>
+        <div className="react">MONGODB </div>
           <div className="react">/</div>
         <div className="react">MERN </div>
           <div className="react">/</div>
@@ -49,7 +49,7 @@ const Skills = () => {
             <li className="li">React</li>
             <li className="li">API's</li>
             <li className="li">Node.js</li>
-            <li className="li">Mongo-DB</li>
+            <li className="li">MongoDB</li>
             <li className="li">MERN</li>
             <li className="li">GitHub</li>
             <li className="li">Netlify</li>

@@ -30,19 +30,18 @@ right: 0;
 border: 0.1vw solid;
 border-radius: 5px;
 position: absolute;
-z-index: 1;
 }
 .form1{
-  display: none;
-  top: 1vh;
+  display:none;
+  top: 2vh;
+  width: 25vh;
   position: absolute;
   margin: auto;
-  left: 0vh;
+  left: 0;
   right: 0;
   margin-top: 1vh;
   transition: .5s;
   z-index: 1;
-  
 }
 .title:hover + .form1{
   display: block;
@@ -51,13 +50,13 @@ z-index: 1;
   display: block;
 }
 .outline{
-  width:23vh;
+  width:25vh;
   height: 23.5vh;
   top: 3.2vh;
   border: 0.1vw solid;
   position: absolute;
   margin: auto;
-  left: 0vh;
+  left: 0;
   right: 0;
   border-radius: 10px;
   transition: .5s;

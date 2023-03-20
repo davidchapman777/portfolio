@@ -61,10 +61,9 @@ border: 0.1vw solid;
 border-radius: 10px;
 padding: 1.5vh;
 background: #01014f;
-height: vh;
-width: 20vh;
+height: 100%;
+width: 87%;
 position: relative;
-margin: auto;
 .input{
   background: none;
   border: 0.1vw solid #04fdf9;
