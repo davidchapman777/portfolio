@@ -58,7 +58,7 @@ export const EmailForm = () => {
 const Wrapper = styled.div`
 text-align: left;
 padding: 1.5vh;
-position: relative;
+position: absolute;
 font-size: 2vh;
 
 .input{

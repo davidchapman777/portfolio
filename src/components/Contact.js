@@ -17,7 +17,7 @@ const Wrapper = styled.div`
 left: 0;
 right: 0;
 margin: auto;
-width: 50%;
+width: 99.9%;
 text-align: center;
 position: absolute;
 top: 45.2vh;
@@ -32,7 +32,7 @@ border-radius: 5px;
 position: absolute;
 }
 .form1{
-  display:none;
+  display:;
   top: 2vh;
   width: 29vh;
   height: 28vh;
@@ -68,14 +68,14 @@ position: absolute;
   opacity: 1;
 }
 .title:hover + .form1 + .outline2{
-  left: 2vh;
+  left: 3vh;
   top: 5vh;
   box-shadow: 10px 10px 10px;
   opacity: 1;
 }
 .form1:hover + .outline2{
   opacity: 1;
-  left: 2vh;
+  left: 3vh;
   top: 5vh;
   box-shadow: 10px 10px 10px;
 }
