@@ -49,7 +49,7 @@ const Projects = () => {
 export default Projects
 
 const Wrapper = styled.div`
-top: 15vh;
+top: 14vh;
 left: 0;
 right: 0;
 margin: auto;
@@ -64,15 +64,17 @@ position: relative;
   border-radius: 5px;
 }
 .projects{
-  display:none ;
+  display:none;
   width: 23vh;
   margin: auto;
   left: 0;
   right: 0;
   position: relative;
-  z-index: 1;
+  top: -5vh;
+  z-index: 0;
   .link{
-  margin: auto;
+    margin: auto;
+    background: #00006a;
   left: 0;
   right: 0;
   width: 22vh;

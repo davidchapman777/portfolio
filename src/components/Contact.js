@@ -28,10 +28,11 @@ margin: auto;
 border: 0.1vw solid;
 border-radius: 5px;
 position: relative;
-z-index: 0;
+z-index: 1;
 }
 .form1{
   display: none;
+  top: -5vh;
   position: absolute;
   margin: auto;
   left: 0;
@@ -39,6 +40,7 @@ z-index: 0;
   margin-top: 1vh;
   transition: .5s;
   z-index: 1;
+  
 }
 .title:hover + .form1{
   display: block;
@@ -47,9 +49,9 @@ z-index: 0;
   display: block;
 }
 .outline{
-  width:27.9vh;
-  height: 23.6vh;
-  top: 3.2vh;
+  width:33vh;
+  height: 31vh;
+  top: -4vh;
   border: 0.1vw solid;
   position: absolute;
   margin: auto;
@@ -61,15 +63,15 @@ z-index: 0;
   opacity: 0;
 }
 .title:hover + .form1 + .outline{
-  left: 2vh;
-  top: 5vh;
+  left: 3vh;
+  top: -2vh;
   box-shadow: 10px 10px 10px;
   opacity: 1;
 }
 .form1:hover + .outline{
   opacity: 1;
-  left: 2vh;
-  top: 5vh;
+  left: 3vh;
+  top: -2vh;
   box-shadow: 10px 10px 10px;
 }
 

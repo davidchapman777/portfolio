@@ -77,7 +77,7 @@ position: relative;
   border: 0.1vw solid;
   width: 10vh;
   margin: auto;
-  margin-bottom: 2vh;
+  margin-bottom: 3vh;
   border-radius: 5px;
 }
 
@@ -89,7 +89,7 @@ border: 0.1vw solid;
 font-size: 2.1vh;
 left: 0;
 right: 0;
-top: 9vh;
+top: 8vh;
 margin: auto;
 border-radius: 10px;
 background: #00006a;
@@ -101,7 +101,7 @@ display: none;
   margin: auto;
   left: 0;
   right: 0;
-  top: 9vh;
+  top: 8vh;
   width: 36vh;
   height: 28vh;
   border: .1vw solid;
@@ -120,7 +120,7 @@ display: none;
   .outline{
     opacity: 1;
     left: 3vh;
-    top: 11vh;
+    top: 10vh;
   }
 }
 .div1{
@@ -166,7 +166,7 @@ display: none;
 }
 .react{
   margin: auto;
-  font-size: 2vh;
+  font-size: 1.7vh;
 }
 .react:hover{
   transform: scale(1.2);

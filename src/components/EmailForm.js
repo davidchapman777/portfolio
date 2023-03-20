@@ -61,13 +61,18 @@ border: 0.1vw solid;
 border-radius: 10px;
 padding: 1.5vh;
 background: #01014f;
+height: 28vh;
+width: 30vh;
+position: relative;
+margin: auto;
 .input{
-background: none;
-border: 0.1vw solid #04fdf9;
-color: #04fdf9;
-border-radius: 10px;
+  background: none;
+  border: 0.1vw solid #04fdf9;
+  color: #04fdf9;
+  border-radius: 10px;
 }
 .submit-btn{
+  border-radius: 10px;
 background: none;
 border: 0.1vw solid #04fdf9;
 color: #04fdf9;
