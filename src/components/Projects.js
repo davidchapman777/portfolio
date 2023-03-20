@@ -49,7 +49,7 @@ const Projects = () => {
 export default Projects
 
 const Wrapper = styled.div`
-top: 5.7vh;
+top: 8vh;
 left: 0;
 right: 0;
 margin: auto;
@@ -59,7 +59,8 @@ position: relative;
 .title{
   position: relative;
   border: .1vw solid;
-  width: 10vh;
+  width: 15vh;
+  height: 3vh;
   margin: auto;
   border-radius: 5px;
 }
@@ -69,7 +70,7 @@ position: relative;
   margin: auto;
   left: 0;
   right: 0;
-  position: relative;
+  position: absolute;
   top: -5vh;
   z-index: 1;
   .link{

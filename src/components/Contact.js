@@ -17,13 +17,12 @@ const Wrapper = styled.div`
 left: 0;
 right: 0;
 margin: auto;
-width: 99.9%;
 text-align: center;
-position: absolute;
-top: 45.2vh;
-
+position: relative;
+top: 11vh;
 .title{
-width: 10vh;
+width: 15vh;
+height: 3vh;
 margin: auto;
 left: 0;
 right: 0;
@@ -35,7 +34,7 @@ position: absolute;
   display:none;
   top: 2vh;
   width: 29vh;
-  height: 30vh;
+  height: 35vh;
   position: absolute;
   margin: auto;
   left: 0;
@@ -55,7 +54,7 @@ position: absolute;
 }
 .outline2{
   width:29vh;
-  height: 30vh;
+  height: 35vh;
   top: 3vh;
   border: 0.1vw solid;
   position: absolute;

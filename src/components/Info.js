@@ -27,10 +27,12 @@ position: absolute;
 }
 .b{
 border: 0.1vw solid;
-width: 10vh;
+width: 15vh;
+height: 3vh;
 margin: auto;
 border-radius: 5px;
 margin-bottom: 2vh;
+
 }
 .p{
   z-index: 2;

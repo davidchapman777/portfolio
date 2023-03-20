@@ -73,6 +73,9 @@ font-size: 1.9vh;
 background: none;
 border: 0.1vw solid #04fdf9;
 color: #04fdf9;
-
+&:hover{
+  background: white;
 }
+}
+
 `
