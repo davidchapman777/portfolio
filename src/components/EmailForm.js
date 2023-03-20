@@ -57,18 +57,16 @@ export const EmailForm = () => {
 
 const Wrapper = styled.div`
 text-align: left;
-border: 0.1vw solid;
-border-radius: 10px;
 padding: 1.5vh;
-background: #01014f;
-height: 100%;
-width: 87%;
 position: relative;
+font-size: 2vh;
+
 .input{
   background: none;
   border: 0.1vw solid #04fdf9;
   color: #04fdf9;
   border-radius: 10px;
+  font-size: 1.9vh;
 }
 .submit-btn{
   border-radius: 10px;
