@@ -59,7 +59,7 @@ const Wrapper = styled.div`
 text-align: left;
 padding: 1.5vh;
 position: absolute;
-font-size: 2vh;
+font-size: 1.9vh;
 
 .input{
   background: none;

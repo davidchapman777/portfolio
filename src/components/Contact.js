@@ -35,7 +35,7 @@ position: absolute;
   display:none;
   top: 2vh;
   width: 29vh;
-  height: 28vh;
+  height: 30vh;
   position: absolute;
   margin: auto;
   left: 0;
@@ -55,7 +55,7 @@ position: absolute;
 }
 .outline2{
   width:29vh;
-  height: 28vh;
+  height: 30vh;
   top: 3vh;
   border: 0.1vw solid;
   position: absolute;
