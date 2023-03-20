@@ -32,7 +32,7 @@ border-radius: 5px;
 position: absolute;
 }
 .form1{
-  display:;
+  display:none;
   top: 2vh;
   width: 29vh;
   height: 28vh;
