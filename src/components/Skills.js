@@ -69,7 +69,7 @@ const Skills = () => {
 }
 export default Skills
 const Wrapper = styled.div`
-top: 11vh;
+top: 6.5vh;
 position: relative;
 
 .s{
@@ -86,22 +86,22 @@ position: absolute;
 width: 36vh;
 height: 28vh;
 border: 0.1vw solid;
-font-size: 2.1vh;
+font-size: 2vh;
 left: 0;
 right: 0;
-top: 8vh;
+top: 4.4vh;
 margin: auto;
 border-radius: 10px;
 background: #00006a;
 z-index: 2;
-display: none;
+display:none ;
 }
 .outline{
   position: absolute;
   margin: auto;
   left: 0;
   right: 0;
-  top: 8vh;
+  top: 4vh;
   width: 36vh;
   height: 28vh;
   border: .1vw solid;
@@ -120,7 +120,7 @@ display: none;
   .outline{
     opacity: 1;
     left: 3vh;
-    top: 10vh;
+    top: 6vh;
   }
 }
 .div1{
@@ -129,9 +129,9 @@ display: none;
   animation-direction: normal;
   animation-timing-function:linear;
   text-align: center;
-  display: none;
   width: 100%;
-  
+  display: none;
+  top: 2.3vh;
 }
 .s:hover + .container{
   .div1{
@@ -158,6 +158,7 @@ display: none;
   text-align: center;
   display: none;
   width: 100%;
+  top: 2.3vh;
 }
 .s:hover + .container{
   .div2{

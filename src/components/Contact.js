@@ -20,22 +20,24 @@ margin: auto;
 width: 50%;
 text-align: center;
 position: absolute;
-top: 59vh;
+top: 45.2vh;
 
 .title{
 width: 10vh;
 margin: auto;
+left: 0;
+right: 0;
 border: 0.1vw solid;
 border-radius: 5px;
-position: relative;
+position: absolute;
 z-index: 1;
 }
 .form1{
   display: none;
-  top: -5vh;
+  top: 1vh;
   position: absolute;
   margin: auto;
-  left: 0;
+  left: 0vh;
   right: 0;
   margin-top: 1vh;
   transition: .5s;
@@ -49,13 +51,13 @@ z-index: 1;
   display: block;
 }
 .outline{
-  width:33vh;
-  height: 31vh;
-  top: -4vh;
+  width:23vh;
+  height: 23.5vh;
+  top: 3.2vh;
   border: 0.1vw solid;
   position: absolute;
   margin: auto;
-  left: 0;
+  left: 0vh;
   right: 0;
   border-radius: 10px;
   transition: .5s;
@@ -64,14 +66,14 @@ z-index: 1;
 }
 .title:hover + .form1 + .outline{
   left: 3vh;
-  top: -2vh;
+  top: 5vh;
   box-shadow: 10px 10px 10px;
   opacity: 1;
 }
 .form1:hover + .outline{
   opacity: 1;
   left: 3vh;
-  top: -2vh;
+  top: 5vh;
   box-shadow: 10px 10px 10px;
 }
 

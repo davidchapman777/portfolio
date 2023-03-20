@@ -49,7 +49,7 @@ const Projects = () => {
 export default Projects
 
 const Wrapper = styled.div`
-top: 14vh;
+top: 5.7vh;
 left: 0;
 right: 0;
 margin: auto;
