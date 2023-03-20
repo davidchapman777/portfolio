@@ -14,13 +14,13 @@ const Contact = () => {
 }
 export default Contact
 const Wrapper = styled.div`
-bottom: 40vh;
 left: 0;
 right: 0;
 margin: auto;
 width: 50%;
 text-align: center;
 position: absolute;
+top: 59vh;
 
 .title{
 width: 10vh;

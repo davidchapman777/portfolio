@@ -36,8 +36,10 @@ margin-bottom: 2vh;
   z-index: 2;
   border: 0.1vw solid;
   width: 30vh;
+  height: 32vh;
   margin: auto;
   position: absolute;
+  font-size: 2.1vh;
   left: 0;
   right: 0;
   border-radius: 10px;
@@ -51,7 +53,7 @@ margin-bottom: 2vh;
 .background{
   z-index: 0;
   width: 32vh;
-  height: 23.5vh;
+  height: 34vh;
   border: .1vw solid ;
   position: absolute;
   margin: auto;
@@ -64,7 +66,7 @@ margin-bottom: 2vh;
 }
 .b:hover + .p + .background{
   left: 3vh;
-  top: 6vh;
+  top: 7vh;
   opacity: 1;
   box-shadow: 5px 5px 5px ;
 }

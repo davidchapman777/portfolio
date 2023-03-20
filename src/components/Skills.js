@@ -69,8 +69,9 @@ const Skills = () => {
 }
 export default Skills
 const Wrapper = styled.div`
-top: 10vh;
+top: 11vh;
 position: relative;
+
 .s{
   text-align: center;
   border: 0.1vw solid;
@@ -82,11 +83,13 @@ position: relative;
 
 .list{
 position: absolute;
-width: 30vh;
+width: 36vh;
+height: 28vh;
 border: 0.1vw solid;
+font-size: 2.1vh;
 left: 0;
 right: 0;
-top: 7vh;
+top: 9vh;
 margin: auto;
 border-radius: 10px;
 background: #00006a;
@@ -98,9 +101,9 @@ display: none;
   margin: auto;
   left: 0;
   right: 0;
-  top: 7vh;
-  width: 30vh;
-  height: 21.2vh;
+  top: 9vh;
+  width: 36vh;
+  height: 28vh;
   border: .1vw solid;
   border-radius: 10px;
   opacity: 0;
@@ -117,7 +120,7 @@ display: none;
   .outline{
     opacity: 1;
     left: 3vh;
-    top: 9vh;
+    top: 11vh;
   }
 }
 .div1{
@@ -128,6 +131,7 @@ display: none;
   text-align: center;
   display: none;
   width: 100%;
+  
 }
 .s:hover + .container{
   .div1{
@@ -162,7 +166,7 @@ display: none;
 }
 .react{
   margin: auto;
-  font-size: 1.5vh;
+  font-size: 2vh;
 }
 .react:hover{
   transform: scale(1.2);
