@@ -32,7 +32,7 @@ border-radius: 5px;
 position: absolute;
 }
 .form1{
-  display:;
+  display:none;
   top: 2vh;
   width: 29vh;
   height: 28vh;
@@ -65,7 +65,7 @@ position: absolute;
   border-radius: 10px;
   transition: .5s;
   background: none;
-  opacity: 1;
+  opacity: 0;
 }
 .title:hover + .form1 + .outline2{
   left: 3vh;
