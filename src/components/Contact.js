@@ -8,32 +8,69 @@ const Contact = () => {
       <div className="form1">
       <EmailForm/>
       </div>
+      <div className="outline"></div>
     </Wrapper>
   )
 }
 export default Contact
 const Wrapper = styled.div`
-border: 0.1vw solid ;
-top: 0vh;
+bottom: 40vh;
 left: 0;
 right: 0;
 margin: auto;
 width: 50%;
 text-align: center;
-position: relative;
+position: absolute;
+
 .title{
 width: 10vh;
 margin: auto;
 border: 0.1vw solid;
+border-radius: 5px;
+position: relative;
+z-index: 0;
 }
 .form1{
   display: none;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-top: 1vh;
+  transition: .5s;
+  z-index: 1;
 }
 .title:hover + .form1{
   display: block;
 }
 .form1:hover{
   display: block;
+}
+.outline{
+  width:27.9vh;
+  height: 23.6vh;
+  top: 3.2vh;
+  border: 0.1vw solid;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+  transition: .5s;
+  background: none;
+  opacity: 0;
+}
+.title:hover + .form1 + .outline{
+  left: 2vh;
+  top: 5vh;
+  box-shadow: 10px 10px 10px;
+  opacity: 1;
+}
+.form1:hover + .outline{
+  opacity: 1;
+  left: 2vh;
+  top: 5vh;
+  box-shadow: 10px 10px 10px;
 }
 
 @media only screen and (min-width: 1000px) {

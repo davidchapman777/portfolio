@@ -16,32 +16,30 @@ const Projects = () => {
       <div>
         <div className="title">Projects</div>
         <div className="projects">
-        
           <div className="link">
+            <span>Shit My Wife Likes App</span>
             {isLoading ? (<Loading />) : (
               <a href='https://shitmywifelikes.netlify.app/' >
                 <img src={pic1} className='pic' alt="project pic" />
               </a>
             )}
-            <span>Shit My Wife Likes App</span>
           </div>
           <div  className="link">
-            {isLoading ? (<Loading />) : (
-              
-              <a href='https://dc1499110-starwars-app.netlify.app/' >
-            <img src={pic2} className='pic'alt="project pic"/>
-            </a>
-            ) }
             <span>Star Wars App</span>
+            {isLoading ? (<Loading />) : (
+              <a href='https://dc1499110-starwars-app.netlify.app/' >
+            <img src={pic2} className='pic' alt="project pic"/>
+            </a>
+            )}
           </div>
           <div className="link">
+            <span>Catch Of The Day App</span>
             {isLoading ? (<Loading />) : (
               
               <a href='https://catchoftheday.onrender.com' >
             <img src={pic3} className='pic'alt="project pic"/>
             </a>
-              ) }
-            <span>Catch Of The Day App</span>
+            )}
           </div>
         </div>
       </div>
@@ -51,47 +49,51 @@ const Projects = () => {
 export default Projects
 
 const Wrapper = styled.div`
-top: 15vh;
+top: 14vh;
 left: 0;
 right: 0;
 margin: auto;
 width: 80%;
 text-align: center;
 position: relative;
-height: 30vh;
-
 .title{
   position: relative;
-  margin: 2vh;
   border: .1vw solid;
   width: 10vh;
   margin: auto;
+  border-radius: 5px;
 }
 .projects{
-  border: .1vw solid ;
-  display: none;
-  justify-content: space-between;
+  display:none ;
+  width: 23vh;
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: relative;
+  z-index: 1;
   .link{
   margin: auto;
   left: 0;
   right: 0;
-  height: 20vh;
-  width: 22%;
+  width: 22vh;
+  margin-bottom: 1vh;
+  border: .1vw solid;
   transition: .5s;
   border-radius: 10px;
   .pic{
-    width: 100%;
-    height: 100%;
+    width: 18vh;
+    height: 10vh;
     border-radius: 10px;
     border: 0.1vw solid #04fdf9;
   }
+ 
 }
 }
 .title:hover + .projects{
-  display: flex;
+  display: block;
 }
 .projects:hover{
-  display: flex;
+  display: block;
 }
 .link:hover{
   transform: scale(1.1);

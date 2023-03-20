@@ -58,10 +58,14 @@ export const EmailForm = () => {
 const Wrapper = styled.div`
 text-align: left;
 border: 0.1vw solid;
+border-radius: 10px;
+padding: 1.5vh;
+background: #01014f;
 .input{
 background: none;
 border: 0.1vw solid #04fdf9;
 color: #04fdf9;
+border-radius: 10px;
 }
 .submit-btn{
 background: none;

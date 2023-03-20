@@ -22,7 +22,6 @@ right: 0;
 margin: auto;
 width: 99.9%;
 text-align: center;
-border: 0.1vw solid red;
 height: 30vh;
 .header{
   position: absolute;
@@ -31,7 +30,6 @@ height: 30vh;
   font-size: 3vh;
   left: 0;
   right: 0;
-  border: 0.1vw solid red;
   bottom: 0;
 }
 .container{
