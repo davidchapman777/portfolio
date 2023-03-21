@@ -60,12 +60,13 @@ position: relative;
 
 .title{
   position: relative;
-  border: .1vw solid;
   width: 15vh;
   height: 3vh;
   margin: auto;
   border-radius: 5px;
   z-index: 1;
+  border: 0.4vw solid;
+padding-top: 0.5vh;
 }
 .projects{
   display:none;

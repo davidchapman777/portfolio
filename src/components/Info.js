@@ -26,13 +26,13 @@ position: absolute;
   top: 2vh;
 }
 .b{
-border: 0.1vw solid;
+border: 0.4vw solid;
+padding-top: 0.5vh;
 width: 15vh;
 height: 3vh;
 margin: auto;
 border-radius: 5px;
 margin-bottom: 2vh;
-
 }
 .p{
   z-index: 2;

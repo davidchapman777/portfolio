@@ -69,16 +69,17 @@ const Skills = () => {
 }
 export default Skills
 const Wrapper = styled.div`
-top: 8vh;
+top: 8.5vh;
 position: relative;
 .s{
   text-align: center;
-  border: .1vw solid;
   width: 15vh;
   height: 3vh;
   margin: auto;
   margin-bottom: 3vh;
   border-radius: 5px;
+  border: 0.4vw solid;
+padding-top: 0.5vh;
 }
 
 .list{

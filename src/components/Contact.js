@@ -20,7 +20,7 @@ right: 0;
 margin: auto;
 text-align: center;
 position: relative;
-top: 11vh;
+top: 10.5vh;
 span{
 text-decoration: underline;
 }
@@ -30,7 +30,8 @@ height: 3vh;
 margin: auto;
 left: 0;
 right: 0;
-border: 0.1vw solid;
+border: 0.4vw solid;
+padding-top: 0.5vh;
 border-radius: 5px;
 position: absolute;
 z-index: 1;
