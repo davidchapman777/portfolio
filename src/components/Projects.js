@@ -75,10 +75,10 @@ position: relative;
   left: 0;
   right: 0;
   position: absolute;
-  top: -5vh;
+  top: -3vh;
   z-index: 2;
   border: .1vw solid;
-  padding: 4vh;
+  padding: 1vh;
   background: #00006a;
   border-radius: 10px;
   .link{
@@ -116,8 +116,8 @@ position: relative;
   right: 0;
   border: .1vw solid;
   width:23vh;
-  padding: 4vh;
-  top: -5vh;
+  padding: 1vh;
+  top: -3vh;
   border-radius: 10px;
   height: 40vh;
   opacity: 0;
@@ -128,12 +128,12 @@ position: relative;
 }
 .title:hover +.projects + .container3{
   left: 3vh;
-  top: -3vh;
+  top: -1vh;
   opacity: 1;
 }
 .projects:hover +.container3{
   left: 3vh;
-  top: -3vh;
+  top: -1vh;
   opacity: 1;
 }
 

@@ -4,7 +4,8 @@ import {
   Header,
   Contact,
   Projects,
-  Skills
+  Skills,
+  Ship
 } from "./components";
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Info />
       <Skills/>
       <Projects />
-      <Contact />
+        <Contact />
+        <Ship/>
     </div>
     </Wrapper>
   );
