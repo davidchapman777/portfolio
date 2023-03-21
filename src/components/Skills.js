@@ -22,7 +22,7 @@ const Skills = () => {
           <div className="react">/</div>
         <div className="react">MERN </div>
           <div className="react">/</div>
-    </div>
+        </div>
       <div className="div2">
         <div className="react">REACT </div>
           <div className="react">/</div>
@@ -73,7 +73,7 @@ top: 8vh;
 position: relative;
 .s{
   text-align: center;
-  border: 0.1vw solid;
+  border: .1vw solid;
   width: 15vh;
   height: 3vh;
   margin: auto;
@@ -89,7 +89,7 @@ border: 0.1vw solid;
 font-size: 2vh;
 left: 0;
 right: 0;
-top: 5.4vh;
+top: 6.3vh;
 margin: auto;
 border-radius: 10px;
 background: #00006a;
@@ -101,7 +101,7 @@ display:none ;
   margin: auto;
   left: 0;
   right: 0;
-  top: 4vh;
+  top: 6.3vh;
   width: 36vh;
   height: 28vh;
   border: .1vw solid;
@@ -120,7 +120,7 @@ display:none ;
   .outline{
     opacity: 1;
     left: 3vh;
-    top: 6vh;
+    top: 8vh;
   }
 }
 .div1{
@@ -131,7 +131,7 @@ display:none ;
   text-align: center;
   width: 100%;
   display: none;
-  top: 3.5vh;
+  top: 4vh;
 }
 .s:hover + .container{
   .div1{
@@ -158,7 +158,7 @@ display:none ;
   text-align: center;
   display: none;
   width: 100%;
-  top: 3.5vh;
+  top: 4vh;
 }
 .s:hover + .container{
   .div2{
@@ -167,7 +167,7 @@ display:none ;
 }
 .react{
   margin: auto;
-  font-size: 1.7vh;
+  font-size: 3vw;
 }
 .react:hover{
   transform: scale(1.2);

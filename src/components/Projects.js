@@ -42,6 +42,7 @@ const Projects = () => {
             )}
           </div>
         </div>
+        <div className="container3"></div>
       </div>
     </Wrapper>
   )
@@ -56,6 +57,7 @@ margin: auto;
 width: 80%;
 text-align: center;
 position: relative;
+
 .title{
   position: relative;
   border: .1vw solid;
@@ -63,16 +65,22 @@ position: relative;
   height: 3vh;
   margin: auto;
   border-radius: 5px;
+  z-index: 1;
 }
 .projects{
   display:none;
   width: 23vh;
+  height: 40vh;
   margin: auto;
   left: 0;
   right: 0;
   position: absolute;
   top: -5vh;
-  z-index: 1;
+  z-index: 2;
+  border: .1vw solid;
+  padding: 4vh;
+  background: #00006a;
+  border-radius: 10px;
   .link{
     margin: auto;
     background: #00006a;
@@ -100,6 +108,33 @@ position: relative;
 }
 .link:hover{
   transform: scale(1.1);
+}
+.container3{
+  position: absolute;
+  margin: auto;
+  left: 0vh;
+  right: 0;
+  border: .1vw solid;
+  width:23vh;
+  padding: 4vh;
+  top: -5vh;
+  border-radius: 10px;
+  height: 40vh;
+  opacity: 0;
+  transition: .5s;
+  z-index: 0;
+  box-shadow: 5px 5px 5px;
+
+}
+.title:hover +.projects + .container3{
+  left: 3vh;
+  top: -3vh;
+  opacity: 1;
+}
+.projects:hover +.container3{
+  left: 3vh;
+  top: -3vh;
+  opacity: 1;
 }
 
 @media only screen and (min-width: 1000px) {

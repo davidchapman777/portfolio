@@ -6,6 +6,7 @@ const Contact = () => {
     <Wrapper>
       <div className="title">Contact</div>
       <div className="form1">
+        <span>Contact me</span>
       <EmailForm/>
       </div>
       <div className="outline2"></div>
@@ -20,6 +21,9 @@ margin: auto;
 text-align: center;
 position: relative;
 top: 11vh;
+span{
+text-decoration: underline;
+}
 .title{
 width: 15vh;
 height: 3vh;
@@ -29,10 +33,11 @@ right: 0;
 border: 0.1vw solid;
 border-radius: 5px;
 position: absolute;
+z-index: 1;
 }
 .form1{
   display:none;
-  top: 2vh;
+  top: -3vh;
   width: 29vh;
   height: 35vh;
   position: absolute;
@@ -55,27 +60,28 @@ position: absolute;
 .outline2{
   width:29vh;
   height: 35vh;
-  top: 3vh;
+  top: 0vh;
   border: 0.1vw solid;
   position: absolute;
   margin: auto;
-  left: 0vh;
+  left: 3vh;
   right: 0;
   border-radius: 10px;
   transition: .5s;
   background: none;
   opacity: 0;
+  z-index: 0;
 }
 .title:hover + .form1 + .outline2{
   left: 3vh;
-  top: 5vh;
+  top: .5vh;
   box-shadow: 10px 10px 10px;
   opacity: 1;
 }
 .form1:hover + .outline2{
   opacity: 1;
   left: 3vh;
-  top: 5vh;
+  top: .5vh;
   box-shadow: 10px 10px 10px;
 }
 
