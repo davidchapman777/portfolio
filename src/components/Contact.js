@@ -86,7 +86,35 @@ z-index: 1;
   box-shadow: 10px 10px 10px;
 }
 
-@media only screen and (min-width: 1000px) {
-  top: 12vh;
+@media only screen and (min-width: 600px) {
+  height: 30vh;
+  width: 30vh;
+  position: absolute;
+  top: 40.2vh;
+  left: 30%;
+  .form1{
+    top: 3vh;
+  }
+  .outline2{
+  top: 4vh;
+  left: 0vh;
+  right: 0;
+}
+.title:hover + .form1 + .outline2{
+  left: 2vh;
+  top: 5.5vh;
+}
+.form1:hover + .outline2{
+  opacity: 1;
+  left: 2vh;
+  top: 5.5vh;
+  
+}
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
 }
 `

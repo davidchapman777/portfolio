@@ -66,7 +66,7 @@ position: relative;
   border-radius: 5px;
   z-index: 1;
   border: 0.4vw solid;
-padding-top: 0.5vh;
+  padding-top: 0.5vh;
 }
 .projects{
   display:none;
@@ -83,8 +83,8 @@ padding-top: 0.5vh;
   background: #00006a;
   border-radius: 10px;
   .link{
-    margin: auto;
-    background: #00006a;
+  margin: auto;
+  background: #00006a;
   left: 0;
   right: 0;
   width: 22vh;
@@ -125,7 +125,6 @@ padding-top: 0.5vh;
   transition: .5s;
   z-index: 0;
   box-shadow: 5px 5px 5px;
-
 }
 .title:hover +.projects + .container3{
   left: 3vh;
@@ -138,10 +137,43 @@ padding-top: 0.5vh;
   opacity: 1;
 }
 
-@media only screen and (min-width: 1000px) {
- top: 15vh;
- .projects{
-  display: flex;
- }
+@media only screen and (min-width: 600px) {
+  height: 30vh;
+  width: 30vh;
+  position: absolute;
+  top: 30.1vh;
+  left: 30%;
+  .title{
+    top: 2vh;
+  }
+  .projects{
+    top: 6vh;
+    width: 22vh;
+  }
+  .container3{
+  left: 0vh;
+  right: 0;
+  width:22vh;
+  padding: 2vh;
+  top: 6vh;
+  height: 40vh;
 }
+.title:hover +.projects + .container3{
+  left: 3vh;
+  top: 7.5vh;
+  opacity: 1;
+}
+.projects:hover +.container3{
+  left: 3vh;
+  top: 7.5vh;
+  opacity: 1;
+}
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+
 `

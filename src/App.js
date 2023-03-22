@@ -15,8 +15,8 @@ function App() {
       <Info />
       <Skills/>
       <Projects />
-        <Contact />
-        <Ship/>
+      <Contact />
+      <Ship/>
     </div>
     </Wrapper>
   );
@@ -33,4 +33,5 @@ const Wrapper=styled.div`
   right: 0;
   margin: auto;
   position: fixed;
+  
 `

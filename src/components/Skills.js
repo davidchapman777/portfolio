@@ -133,6 +133,7 @@ display:none ;
   width: 100%;
   display: none;
   top: 4vh;
+  z-index: 0;
 }
 .s:hover + .container{
   .div1{
@@ -160,6 +161,7 @@ display:none ;
   display: none;
   width: 100%;
   top: 4vh;
+  z-index: 0;
 }
 .s:hover + .container{
   .div2{
@@ -177,10 +179,63 @@ display:none ;
   0%{left:-100%};
   100%{left:0%}
 }
-@media only screen and (min-width: 1000px) {
-  top: 12vh;
-  .container{
-    display: block;
+@media only screen and (min-width: 600px) {
+  left: -15%;
+  height: 30vh;
+  margin: auto;
+  top: 10vh;
+  .list{
+  left: 0;
+  right: 0;
+  top: 8vh;
+}
+.outline{
+  left: 0;
+  right: 0;
+  top: 8vh;
+}
+.s:hover + .container{
+  .outline{
+    left: 3vh;
+    top: 10vh;
   }
 }
+  .div1{
+    top: 5vh;
+  }
+  @keyframes my-move1{
+  0%{left:15%};
+  100%{left:115%}
+}
+  .div2{
+    top: 5vh;
+  }
+  @keyframes my-move{
+  0%{left:-85%};
+  100%{left:15%}
+}
+}
+@media only screen and (min-width: 768px) {
+.list{
+left: 0;
+right: 0;
+top: 8vh;
+}
+.outline{
+  left: 0;
+  right: 0;
+  top: 8vh;
+}
+.s:hover + .container{
+  .outline{
+    left: 3vh;
+    top: 10vh;
+  }
+}
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+
 `

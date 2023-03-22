@@ -33,6 +33,7 @@ height: 3vh;
 margin: auto;
 border-radius: 5px;
 margin-bottom: 2vh;
+z-index: 2;
 }
 .p{
   z-index: 2;
@@ -65,20 +66,32 @@ margin-bottom: 2vh;
   border-radius: 10px;
   transition: .5s;
   opacity: 0;
+  background: #00006a;
 }
 .b:hover + .p + .background{
   left: 3vh;
-  top: 7vh;
+  top: 7.5vh;
   opacity: 1;
   box-shadow: 5px 5px 5px ;
 }
 
-@media only screen and (min-width: 1000px) {
-  body {
-    background-color: lightblue;
-  }
-  .p{
-    display: block;
-  }
+@media only screen and (min-width: 600px) {
+height: 30vh;
+width: 30vh;
+left: -30%;
+.b:hover + .p + .background{
+  left: 2vh;
+  top: 7.5vh;
+  opacity: 1;
+  box-shadow: 5px 5px 5px ;
 }
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+
+
 `

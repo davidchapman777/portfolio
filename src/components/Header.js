@@ -20,9 +20,10 @@ top: 0;
 left: 0;
 right: 0;
 margin: auto;
-width: 99.9%;
+width: 99%;
 text-align: center;
 height: 30vh;
+border: 0.1vw solid;
 .header{
   position: absolute;
   margin: auto;
@@ -84,63 +85,19 @@ left: -20px;
   z-index: 1;
 }
 
+@media only screen and (min-width: 600px) {
+border: .1vw solid red;
+}
+@media only screen and (min-width: 768px) {
+border: .1vw solid green;
+}
+@media only screen and (min-width: 992px) {
+border: .1vw solid orange;
+}
+@media only screen and (min-width: 1200px) {
+border: .1vw solid yellow;
+}
 
-@media only screen and (min-width: 1000px) {
-  margin-left: 0;
-  left: 0;
-  .container{
-    height: 30vh;
-    width: 25vh;
-    margin-left: 10vw;
-  }
-  .pic{
-    position: absolute;
-    left: 0;
-    height: 30vh;
-    width: 25vh;
-    top: 0;
-    transition: .5s;
-    box-shadow: none;
-    animation: none;
-  }
-  .pic:hover{
-    position: absolute;
-    left: -4vh;
-    top: -4vh;
-    box-shadow: 5px 5px 5px black;
-  }
-  .div1{
-    position: absolute;
-    left: 0;
-    top: 0;
-    box-shadow: none;
-    width: 25vh;
-    height: 30vh;
-    border-radius:5% ;
-    transition: .5s;
-    display: block;
-    outline: none;
-    background-color: white;
-    animation: none;
-  }
-  .pic:hover +.div1{
-    left: -2vh;
-    top: -2vh;
-    box-shadow: 5px 5px 5px black;
-  }
-  .div2{
-    position: absolute;
-    display: none;
-    background:none;
-    left: 0;
-    top:0;
-    height: 30vh;
-    width: 25vh;
-    border: 0.1vw solid;
-  }
-  
-  .pic:hover +.div1 +.div2{
-    display: block;
-}
-}
+
+
 `

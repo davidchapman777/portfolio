@@ -55,7 +55,7 @@ const Wrapper = styled.div`
     font-size: 5vh;
     transform: rotate(90deg);
     animation-name: ship;
-    animation-duration: 40s;
+    animation-duration: 30s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
