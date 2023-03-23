@@ -87,8 +87,57 @@ left: -30%;
 }
 }
 @media only screen and (min-width: 768px) {
+  .b{
+    border: 0.3vw solid;
+  }
 }
 @media only screen and (min-width: 992px) {
+  position: relative;
+  width: 99%;
+  height: 10vh;
+  left: 0;
+  z-index: 4;
+.container{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+.b{
+border: 0.2vw solid;
+padding-top: 0.5vh;
+width: 15vh;
+height: 3vh;
+left: 30vh;
+position: absolute;
+}
+.p{
+  position: absolute;
+  margin-left: 47vh;
+  width: 50vh;
+  display: none;
+  height: 20vh;
+  font-size: 2.2vh;
+  transition: .5s;
+  top: 0vh;
+  text-align: left;
+}
+.b:hover + .p{
+  display: block;
+}
+.background{
+  position: absolute;
+  opacity: 0;
+  top: 0vh;
+  width: 52vh;
+  height: 22vh;
+  margin-left: 47vh;
+}
+.b:hover + .p + .background{
+  opacity: 1;
+  top: 2vh;
+  margin-left: 47.5vh;
+}
 }
 @media only screen and (min-width: 1200px) {
 }

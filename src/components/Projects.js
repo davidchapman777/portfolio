@@ -57,7 +57,9 @@ margin: auto;
 width: 80%;
 text-align: center;
 position: relative;
-
+.outline{
+  display: none;
+}
 .title{
   position: relative;
   width: 15vh;
@@ -170,9 +172,74 @@ position: relative;
 }
 }
 @media only screen and (min-width: 768px) {
+  .title{
+    border: 0.3vw solid;
+  }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) { 
+  position: relative;
+  margin: auto;
+  left: 0;
+  top: 0;
+  width: 99%;
+  height: 10vh;
+.title{
+    position: absolute;
+    left: 30vh;
+    top: 0;
+    border: .2vw solid;
+  }
+  
+.projects{
+    position: absolute;
+    top: 0;
+    width: 55vh;
+    display: none;
+    height: 15vh;
+    margin-left: 46vh;
+    padding: 0vh;
+  .link{
+   position: relative;
+   height: 14vh;
+   width: 17vh;
+   margin: .5vh;
+  .pic{
+    width: 16vh;
+    height: 10vh;
+    border-radius: 10px;
+    border: 0.1vw solid #04fdf9;
+    bottom: 0vh;
+    position: relative;
+  }
+  }}
+  .projects:hover{
+    display: flex;
+  }
+.title:hover + .projects{
+  display: flex;
 }
+.container3{
+  opacity: 0;
+  padding: 2vh;
+  top: 0vh;
+  height: 11.1vh;
+  width: 51vh;
+  margin-left: 46vh;
+}
+.title:hover +.projects + .container3{
+  margin-left: 45vh;
+  top: 2vh;
+  opacity: 1;
+  display: flex;
+}
+.projects:hover +.container3{
+  margin-left: 45vh;
+  top: 2vh;
+  opacity: 1;
+  display: flex;
+}
+}
+
 @media only screen and (min-width: 1200px) {
 }
 

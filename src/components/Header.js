@@ -21,7 +21,6 @@ left: 0;
 right: 0;
 margin: auto;
 width: 99%;
-text-align: center;
 height: 30vh;
 border: 0.1vw solid;
 .header{
@@ -93,6 +92,48 @@ border: .1vw solid green;
 }
 @media only screen and (min-width: 992px) {
 border: .1vw solid orange;
+z-index: 5;
+.container{
+  position: absolute;
+  height: 32vh;
+  width: 22vh;
+  top: 5vh;
+  left: 5vh;
+}
+.pic{
+  animation:none;
+  width: 20vh;
+  height: 30vh;
+  transition: 1s;
+}
+.pic:hover{
+  transform:translateX(-2vh) translateY(-2vh);
+}
+.div1{
+  animation: none;
+  transition: 1s;
+  width: 20vh;
+  height: 30vh;
+  left: 0;
+}
+.pic:hover + .div1{
+  transform:translateX(-1vh) translateY(-1vh);
+}
+.div2{
+  height: 30vh;
+  width: 20vh;
+  left: 0;
+}
+.header{
+  position: absolute;
+  margin-left: 0vh;
+  font-size: 4vh;
+  left: 30vh;
+  top: -10vh;
+  height: 5vh;
+  width: 30vh;
+  border: 0.1vw solid;
+}
 }
 @media only screen and (min-width: 1200px) {
 border: .1vw solid yellow;

@@ -40,7 +40,7 @@ export const EmailForm = () => {
       <label>Phone</label>
       <br/>
       <input type='tel' name='phone' className='input'/>
-      <br/>
+          <br />
       <label>Your Email</label>
       <br/>          
       <input type="email" name="from" className='input'/>
@@ -49,7 +49,9 @@ export const EmailForm = () => {
       <br/>          
       <textarea name="message" className='input'/>
       <br/>          
-      <button type="submit" value="Send" className='submit-btn'>submit</button>
+      <br/>                
+          <button type="submit" value="Send" className='submit-btn'>submit</button>
+          <br/>
     </form>
     </Wrapper>
   );
@@ -69,7 +71,7 @@ font-size: 1.9vh;
   font-size: 1.9vh;
 }
 .submit-btn{
-  border-radius: 10px;
+border-radius: 10px;
 background: none;
 border: 0.1vw solid #04fdf9;
 color: #04fdf9;
@@ -77,5 +79,11 @@ color: #04fdf9;
   background: white;
 }
 }
-
+@media only screen and (min-width: 992px) {
+  columns: 2;
+  .submit-btn{
+    width: 15vh;
+    height: 3vh;
+  }
+}
 `

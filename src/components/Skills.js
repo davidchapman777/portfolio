@@ -79,7 +79,7 @@ position: relative;
   margin-bottom: 3vh;
   border-radius: 5px;
   border: 0.4vw solid;
-padding-top: 0.5vh;
+  padding-top: 0.5vh;
 }
 
 .list{
@@ -226,6 +226,9 @@ top: 8vh;
   right: 0;
   top: 8vh;
 }
+.s{
+    border: 0.3vw solid;
+  }
 .s:hover + .container{
   .outline{
     left: 3vh;
@@ -234,6 +237,41 @@ top: 8vh;
 }
 }
 @media only screen and (min-width: 992px) {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 99%;
+  height: 10vh;
+.s{
+    position: absolute;
+    left: 30vh;
+    border: .2vw solid;
+  }
+.list{
+position: absolute;
+margin-left: 47vh;
+width: 52vh;
+height: 20vh;
+font-size: 2vh;
+top: 0;
+}
+.ul{
+  columns: 3;
+}
+.outline{
+  position: absolute;
+  top: 0;
+  width: 52vh;
+  height: 20vh;
+  margin-left: 47vh;
+  opacity: 0;
+}
+.s:hover + .container{
+  .outline{
+    left: 2vh;
+    top: 2vh;
+  }
+}
 }
 @media only screen and (min-width: 1200px) {
 }

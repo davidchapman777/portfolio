@@ -112,8 +112,46 @@ z-index: 1;
 }
 }
 @media only screen and (min-width: 768px) {
+.title{
+border: 0.3vw solid;
+}
 }
 @media only screen and (min-width: 992px) {
+  position: relative;
+  top: 0;
+  width: 99%;
+  height: 10vh;
+  left: 0;
+  .title{
+    position: absolute;
+    margin-left: 30vh;
+    border: .1vw solid;
+  }
+.form1{
+  display:none;
+  top: 0vh;
+  width: 56vh;
+  height: 20vh;
+  margin-top: -.1vh;
+  margin-left: 46vh;
+  position: absolute;
+}
+.outline2{
+  top: 0vh;
+  opacity: 0;
+  margin-left: 46vh;
+  width: 56vh;
+  height: 20vh;
+}
+.title:hover + .form1 + .outline2{
+  margin-left: 47;
+  top:2vh;
+}
+.form1:hover + .outline2{
+  opacity: 1;
+  margin-left: 47;
+  top: 2vh;
+}
 }
 @media only screen and (min-width: 1200px) {
 }
