@@ -79,7 +79,7 @@ position: relative;
   right: 0;
   position: absolute;
   top: -3vh;
-  z-index: 2;
+  z-index: 3;
   border: .1vw solid;
   padding: 2vh;
   background: #00006a;
@@ -241,6 +241,57 @@ position: relative;
 }
 
 @media only screen and (min-width: 1200px) {
+  .projects{
+    position: absolute;
+    top: 0;
+    width: 80vh;
+    display: none;
+    height: 22vh;
+    margin-left: 45.5vh;
+    padding: 0vh;
+  .link{
+   position: relative;
+   height: 20vh;
+   width: 22vh;
+   margin: auto;
+   left: 0;
+   right: 0;
+   border: none;
+  .pic{
+    width: 20vh;
+    height: 15vh;
+    border-radius: 10px;
+    border: 0.1vw solid #04fdf9;
+    bottom: 0vh;
+    position: relative;
+  }
+  }}
+  .projects:hover{
+    display: flex;
+  }
+.title:hover + .projects{
+  display: flex;
+}
+.container3{
+  opacity: 0;
+  padding: 2vh;
+  top: 0vh;
+  height: 18vh;
+  width: 76vh;
+  margin-left: 46vh;
+}
+.title:hover +.projects + .container3{
+  margin-left: 45vh;
+  top: 2vh;
+  opacity: 1;
+  display: flex;
+}
+.projects:hover +.container3{
+  margin-left: 45vh;
+  top: 2vh;
+  opacity: 1;
+  display: flex;
+}
 }
 
 `

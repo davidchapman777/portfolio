@@ -125,7 +125,7 @@ border: 0.3vw solid;
   .title{
     position: absolute;
     margin-left: 30vh;
-    border: .1vw solid;
+    border: .2vw solid;
   }
 .form1{
   display:none;
@@ -154,5 +154,30 @@ border: 0.3vw solid;
 }
 }
 @media only screen and (min-width: 1200px) {
+  .form1{
+  display:none;
+  top: 0vh;
+  width: 80vh;
+  height: 25vh;
+  margin-top: -.1vh;
+  margin-left: 46vh;
+  position: absolute;
+}
+.outline2{
+  top: 0vh;
+  opacity: 0;
+  margin-left: 46vh;
+  width: 80vh;
+  height: 25vh;
+}
+.title:hover + .form1 + .outline2{
+  margin-left: 47;
+  top:2vh;
+}
+.form1:hover + .outline2{
+  opacity: 1;
+  margin-left: 47;
+  top: 2vh;
+}
 }
 `

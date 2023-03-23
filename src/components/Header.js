@@ -22,7 +22,6 @@ right: 0;
 margin: auto;
 width: 99%;
 height: 30vh;
-border: 0.1vw solid;
 .header{
   position: absolute;
   margin: auto;
@@ -85,24 +84,21 @@ left: -20px;
 }
 
 @media only screen and (min-width: 600px) {
-border: .1vw solid red;
 }
 @media only screen and (min-width: 768px) {
-border: .1vw solid green;
 }
 @media only screen and (min-width: 992px) {
-border: .1vw solid orange;
 z-index: 5;
 .container{
   position: absolute;
   height: 32vh;
   width: 22vh;
   top: 5vh;
-  left: 5vh;
+  left: 3vh;
 }
 .pic{
   animation:none;
-  width: 20vh;
+  width: 25vh;
   height: 30vh;
   transition: 1s;
 }
@@ -112,7 +108,7 @@ z-index: 5;
 .div1{
   animation: none;
   transition: 1s;
-  width: 20vh;
+  width: 25vh;
   height: 30vh;
   left: 0;
 }
@@ -121,7 +117,7 @@ z-index: 5;
 }
 .div2{
   height: 30vh;
-  width: 20vh;
+  width: 25vh;
   left: 0;
 }
 .header{
@@ -129,14 +125,12 @@ z-index: 5;
   margin-left: 0vh;
   font-size: 4vh;
   left: 30vh;
-  top: -10vh;
+  top: 10vh;
   height: 5vh;
   width: 30vh;
-  border: 0.1vw solid;
 }
 }
 @media only screen and (min-width: 1200px) {
-border: .1vw solid yellow;
 }
 
 

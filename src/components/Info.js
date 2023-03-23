@@ -96,7 +96,7 @@ left: -30%;
   width: 99%;
   height: 10vh;
   left: 0;
-  z-index: 4;
+  z-index: 1;
 .container{
     position: absolute;
     top: 0;
@@ -140,6 +140,33 @@ position: absolute;
 }
 }
 @media only screen and (min-width: 1200px) {
+  .p{
+  position: absolute;
+  margin-left: 47vh;
+  width: 75vh;
+  display: none;
+  height: 20vh;
+  font-size: 2.2vh;
+  transition: .5s;
+  top: 0vh;
+  text-align: left;
+}
+.b:hover + .p{
+  display: block;
+}
+.background{
+  position: absolute;
+  opacity: 0;
+  top: 1vh;
+  width: 77vh;
+  height: 22vh;
+  margin-left: 47vh;
+}
+.b:hover + .p + .background{
+  opacity: 1;
+  top: 2vh;
+  margin-left: 47vh;
+}
 }
 
 

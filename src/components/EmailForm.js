@@ -70,6 +70,7 @@ font-size: 1.9vh;
   border-radius: 10px;
   font-size: 1.9vh;
 }
+
 .submit-btn{
 border-radius: 10px;
 background: none;
@@ -84,6 +85,17 @@ color: #04fdf9;
   .submit-btn{
     width: 15vh;
     height: 3vh;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  columns: 2;
+  line-height: 3vh;
+  width: 96%;
+  height: 80%;
+  .input{
+    margin: auto;
+    left: 0;
+    right: 0;
   }
 }
 `

@@ -274,6 +274,36 @@ top: 0;
 }
 }
 @media only screen and (min-width: 1200px) {
+  .list{
+position: absolute;
+margin-left: 47vh;
+width: 80vh;
+height: 20vh;
+font-size: 2vh;
+top: 0;
+display: none;
+z-index: 1;
+}
+.ul{
+  columns: 3;
+}
+.outline{
+  position: absolute;
+  top: 1vh;
+  width: 80vh;
+  height: 20vh;
+  margin-left: 47vh;
+  opacity: 0;
+}
+.s:hover + .container{
+  .outline{
+    left: 2vh;
+    top: 2vh;
+  }
+}
+.react{
+  font-size:3vh ;
+}
 }
 
 `
