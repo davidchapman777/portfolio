@@ -209,6 +209,186 @@ const Wrapper = styled.div`
     display: none;
 }
 
+@media only screen and (min-width: 768px) {
+.ship-container{
+    display: block;
+}
+.laser3{
+    display: block;
+}
+.laser4{
+    display: block;
+}
+.ship1{
+font-size: 3vh;
+}
+.ship2{
+font-size: 3vh;
+}
+.ship3{
+    width: 5vh;
+    position: absolute;
+    bottom: -1vh;
+    left: 5vh;
+    font-size: 3vh;
+    transform: rotate(0deg);
+    animation-name: ship3;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display: block;
+}
+@keyframes ship3 {
+  0%{left:30%;bottom:10%;}
+  25%{left:35%; bottom:10%}
+  50%{left:30%;bottom:10%;}
+  75%{left:35%;bottom:10%}
+  100%{left:30%;bottom:10%;}
+}
+.ship4{
+    display: block;
+    width: 5vh;
+    position: absolute;
+    bottom: 17vh;
+    left: 5vh;
+    font-size: 3vh;
+    transform: rotate(0deg);
+    animation-name: ship4;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes ship4 {
+    0%{left:40%;bottom:10%;}
+  25%{left:45%; bottom:10%}
+  50%{left:40%;bottom:10%;}
+  75%{left:45%;bottom:10%}
+  100%{left:40%;bottom:10%;}
+}
+.ship5{
+    display: block;
+    width: 5vh;
+    position: absolute;
+    bottom: 23vh;
+    left: 5vh;
+    font-size: 3vh;
+    transform: rotate(0deg);
+    animation-name: ship5;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes ship5 {
+    0%{left:60%;bottom:10%;}
+  25%{left:65%; bottom:10%}
+  50%{left:60%;bottom:10%;}
+  75%{left:65%;bottom:10%}
+  100%{left:60%;bottom:10%;}
+}
+.ship6{
+    display: block;
+    width: 5vh;
+    position: absolute;
+    bottom: 5vh;
+    left: 5vh;
+    font-size: 3vh;
+    transform: rotate(0deg);
+    animation-name: ship6;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes ship6 {
+    0%{left:70%;bottom:10%;}
+  25%{left:75%; bottom:10%}
+  50%{left:70%;bottom:10%;}
+  75%{left:75%;bottom:10%}
+  100%{left:70%;bottom:10%;}
+}
+.ship7{
+    display: block;
+    width: 5vh;
+    position: absolute;
+    bottom: 11vh;
+    font-size: 3vh;
+    transform: rotate(0deg);
+    animation-name: ship7;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes ship7 {
+    0%{left:35%;bottom:15%;}
+  25%{left:40%; bottom:15%}
+  50%{left:35%;bottom:15%;}
+  75%{left:40%;bottom:15%}
+  100%{left:35%;bottom:15%;}
+}
+.ship8{
+    display: block;
+    width: 5vh;
+    position: absolute;
+    bottom: -1vh;
+    right: 5vh;
+    font-size: 6vh;
+    transform: rotate(180deg);
+    animation-name: ship8;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: #03fa03;
+}
+@keyframes ship8 {
+    0%{left:30%;bottom:30%;}
+  25%{left:40%; bottom:40%}
+  50%{left:50%;bottom:30%;}
+  75%{left:60%;bottom:40%}
+  100%{left:75%;bottom:30%;}
+}
+.ship9{
+    display: block;
+    width: 5vh;
+    position: absolute;
+    bottom: 17vh;
+    right: 5vh;
+    font-size: 3vh;
+    transform: rotate(0deg);
+    animation-name: ship9;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes ship9 {
+    0%{left:65%;bottom:15%;}
+  25%{left:70%; bottom:15%}
+  50%{left:65%;bottom:15%;}
+  75%{left:70%;bottom:15%}
+  100%{left:65%;bottom:15%;}
+}
+.ship10{
+    display: block;
+    width: 5vh;
+    position: absolute;
+    bottom: 23vh;
+    right: 5vh;
+    font-size: 5vh;
+    transform: rotate(0deg);
+    animation-name: ship10;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    color: #fa9703;
+}
+@keyframes ship10 {
+    0%{left:50%;bottom:15%;}
+  25%{left:55%; bottom:15%}
+  50%{left:50%;bottom:15%;}
+  75%{left:55%;bottom:15%}
+  100%{left:50%;bottom:15%;}
+}
+
+}
 @media only screen and (min-width: 992px) {
     .ship-container{
         display: block;

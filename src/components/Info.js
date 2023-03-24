@@ -42,7 +42,7 @@ z-index: 2;
   height: 32vh;
   margin: auto;
   position: absolute;
-  font-size: 2.1vh;
+  font-size: 2vh;
   left: 0;
   right: 0;
   border-radius: 10px;
