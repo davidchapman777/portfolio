@@ -47,7 +47,7 @@ z-index: 1;
   right: 0;
   margin-top: 1vh;
   transition: .5s;
-  z-index: 1;
+  z-index: 2;
   border: 0.1vw solid;
   border-radius: 10px;
   background: #00006a;
