@@ -38,7 +38,7 @@ z-index: 1;
 }
 .form1{
   display:none;
-  top: -3vh;
+  top: -10vh;
   width: 29vh;
   height: 35vh;
   position: absolute;
@@ -61,11 +61,11 @@ z-index: 1;
 .outline2{
   width:29vh;
   height: 35vh;
-  top: 0vh;
+  top: -9vh;
   border: 0.1vw solid;
   position: absolute;
   margin: auto;
-  left: 3vh;
+  left: 0vh;
   right: 0;
   border-radius: 10px;
   transition: .5s;
@@ -75,14 +75,14 @@ z-index: 1;
 }
 .title:hover + .form1 + .outline2{
   left: 3vh;
-  top: .5vh;
+  top: -7vh;
   box-shadow: 10px 10px 10px;
   opacity: 1;
 }
 .form1:hover + .outline2{
   opacity: 1;
   left: 3vh;
-  top: .5vh;
+  top: -7vh;
   box-shadow: 10px 10px 10px;
 }
 

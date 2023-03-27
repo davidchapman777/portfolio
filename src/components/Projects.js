@@ -66,7 +66,7 @@ position: relative;
   height: 3vh;
   margin: auto;
   border-radius: 5px;
-  z-index: 1;
+  z-index: 2;
   border: 0.4vw solid;
   padding-top: 0.5vh;
 }
@@ -78,7 +78,7 @@ position: relative;
   left: 0;
   right: 0;
   position: absolute;
-  top: -3vh;
+  top: -4vh;
   z-index: 3;
   border: .1vw solid;
   padding: 2vh;
@@ -120,7 +120,7 @@ position: relative;
   border: .1vw solid;
   width:23vh;
   padding: 2vh;
-  top: -3vh;
+  top: -4vh;
   border-radius: 10px;
   height: 40vh;
   opacity: 0;
@@ -130,12 +130,12 @@ position: relative;
 }
 .title:hover +.projects + .container3{
   left: 3vh;
-  top: -1vh;
+  top: -2vh;
   opacity: 1;
 }
 .projects:hover +.container3{
   left: 3vh;
-  top: -1vh;
+  top: -2vh;
   opacity: 1;
 }
 
@@ -193,19 +193,22 @@ position: relative;
 .projects{
     position: absolute;
     top: 0;
-    width: 55vh;
+    width: 61vh;
     display: none;
-    height: 15vh;
-    margin-left: 46vh;
+    height: 20vh;
+    margin-left: 45.3vh;
     padding: 0vh;
+    
   .link{
    position: relative;
-   height: 14vh;
-   width: 17vh;
-   margin: .5vh;
+   height: 16vh;
+   width: 20vh;
+   margin: auto;
+   border: none;
+   background: none;
   .pic{
     width: 16vh;
-    height: 10vh;
+    height: 12vh;
     border-radius: 10px;
     border: 0.1vw solid #04fdf9;
     bottom: 0vh;
@@ -222,18 +225,18 @@ position: relative;
   opacity: 0;
   padding: 2vh;
   top: 0vh;
-  height: 11.1vh;
-  width: 51vh;
-  margin-left: 46vh;
+  height: 16vh;
+  width: 57vh;
+  margin-left: 45.3vh;
 }
 .title:hover +.projects + .container3{
-  margin-left: 45vh;
+  margin-left: 44.5vh;
   top: 2vh;
   opacity: 1;
   display: flex;
 }
 .projects:hover +.container3{
-  margin-left: 45vh;
+  margin-left: 44.5vh;
   top: 2vh;
   opacity: 1;
   display: flex;

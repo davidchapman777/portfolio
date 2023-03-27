@@ -33,10 +33,10 @@ height: 3vh;
 margin: auto;
 border-radius: 5px;
 margin-bottom: 2vh;
-z-index: 2;
+z-index: 4;
 }
 .p{
-  z-index: 2;
+  z-index: 4;
   border: 0.1vw solid;
   width: 30vh;
   height: 32vh;

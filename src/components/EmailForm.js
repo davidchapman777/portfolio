@@ -76,6 +76,10 @@ border-radius: 10px;
 background: none;
 border: 0.1vw solid #04fdf9;
 color: #04fdf9;
+position: relative;
+top: -1vh;
+height: 3vh;
+width: 20.5vh;
 &:hover{
   background: white;
 }

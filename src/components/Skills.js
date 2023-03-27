@@ -73,6 +73,7 @@ top: 8.5vh;
 position: relative;
 .s{
   text-align: center;
+  position: relative;
   width: 15vh;
   height: 3vh;
   margin: auto;
@@ -80,6 +81,7 @@ position: relative;
   border-radius: 5px;
   border: 0.4vw solid;
   padding-top: 0.5vh;
+  z-index: 3;
 }
 
 .list{
@@ -94,7 +96,7 @@ top: 6.3vh;
 margin: auto;
 border-radius: 10px;
 background: #00006a;
-z-index: 2;
+z-index: 3;
 display:none ;
 }
 .outline{
