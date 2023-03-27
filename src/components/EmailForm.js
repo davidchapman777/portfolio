@@ -60,9 +60,12 @@ export const EmailForm = () => {
 const Wrapper = styled.div`
 text-align: left;
 padding: 1.5vh;
-position: absolute;
+position: relative;
 font-size: 1.9vh;
-
+height: 29vh;
+.form{
+  height: 100%;
+}
 .input{
   background: none;
   border: 0.1vw solid #04fdf9;
