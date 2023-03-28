@@ -209,7 +209,7 @@ const Wrapper = styled.div`
     display: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
 .ship-container{
     display: block;
 }

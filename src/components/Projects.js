@@ -13,36 +13,63 @@ const Projects = () => {
   },[])
   return (
     <Wrapper>
-      <div>
+      <div className="projects-container">
         <div className="title">Projects</div>
-        <div className="projects">
-          <div className="link">
-            <span>Shit My Wife Likes App</span>
-            {isLoading ? (<Loading />) : (
+          <div className="projects">
+            <div className="link">
+              <span>Shit My Wife Likes App</span>
+              {isLoading ? (<Loading />) : (
               <a href='https://shitmywifelikes.netlify.app/' >
                 <img src={pic1} className='pic' alt="project pic" />
               </a>
-            )}
-          </div>
-          <div  className="link">
-            <span>Star Wars App</span>
-            {isLoading ? (<Loading />) : (
+              )}
+            </div>
+            <div  className="link">
+             <span>Star Wars App</span>
+              {isLoading ? (<Loading />) : (
               <a href='https://dc1499110-starwars-app.netlify.app/' >
-            <img src={pic2} className='pic' alt="project pic"/>
-            </a>
-            )}
-          </div>
-          <div className="link">
-            <span>Catch Of The Day App</span>
-            {isLoading ? (<Loading />) : (
-              
+                <img src={pic2} className='pic' alt="project pic"/>
+              </a>
+              )}
+            </div>
+            <div className="link">
+              <span>Catch Of The Day App</span>
+              {isLoading ? (<Loading />) : ( 
               <a href='https://catchoftheday.onrender.com' >
-            <img src={pic3} className='pic'alt="project pic"/>
-            </a>
-            )}
+              <img src={pic3} className='pic'alt="project pic"/>
+              </a>
+              )}
+            </div>
           </div>
+          <div className="container3"></div>
+        <div className="div3">
+          <div className="react1">PROJECTS </div>
+          <div className="react1">/</div>
+          <div className="react1">PROJECTS </div>
+          <div className="react1">/</div>
+          <div className="react1">PROJECTS </div>
+          <div className="react1">/</div>
+          <div className="react1">PROJECTS </div>
+          <div className="react1">/</div>
+          <div className="react1">PROJECTS</div>
+          <div className="react1">/</div>
+          <div className="react1">PROJECTS</div>
+          <div className="react1">/</div>
         </div>
-        <div className="container3"></div>
+          <div className="div4">
+          <div className="react1">PROJECTS</div>
+          <div className="react1">/</div>
+          <div className="react1">PROJECTS</div>
+          <div className="react1">/</div>
+          <div className="react1">PROJECTS</div>
+          <div className="react1">/</div>
+          <div className="react1">PROJECTS</div>
+          <div className="react1">/</div>
+          <div className="react1">PROJECTS</div>
+          <div className="react1">/</div>
+          <div className="react1">PROJECTS</div>
+          <div className="react1">/</div>
+          </div>
       </div>
     </Wrapper>
   )
@@ -54,7 +81,6 @@ top: 8vh;
 left: 0;
 right: 0;
 margin: auto;
-width: 80%;
 text-align: center;
 position: relative;
 .outline{
@@ -138,18 +164,79 @@ position: relative;
   top: -2vh;
   opacity: 1;
 }
+.div3{
+  position: absolute;
+  animation: my-move3 25s infinite;
+  animation-direction: normal;
+  animation-timing-function:linear;
+  text-align: center;
+  width: 99.9%;
+  display:none;
+  top: 4.5vh;
+  z-index: 0;
+  margin: auto;
+}
+.title:hover +.projects + .container3 + .div3{
+  display: flex;
+}
+.projects:hover +.container3 +.div3{
+  display: flex;
+}
+@keyframes my-move3{
+  0%{left:0%};
+  100%{left:100%}
+}
+.div4{
+  position: absolute;
+  left: -200vh;
+  animation: my-move4 25s infinite;
+  animation-direction: normal;
+  animation-timing-function:linear;
+  text-align: center;
+  display:none;
+  width: 99.9%;
+  top: 4.5vh;
+  z-index: 0;
+  margin: auto;
+}
+.title:hover +.projects + .container3 + .div3 +.div4{
+  display: flex;
+}
+.projects:hover +.container3 +.div3 +.div4{
+  display: flex;
+}
+@keyframes my-move4{
+  0%{left:-100%};
+  100%{left:0%}
+}
+.react1{
+  margin: auto;
+  font-size: 2.5vw;
+}
 
 @media only screen and (min-width: 600px) {
   height: 30vh;
-  width: 30vh;
   position: absolute;
-  top: 30.1vh;
-  left: 30%;
+  top: 35.9vh;
+  .projects-container{
+    position: relative;
+    left: 15%;
+  }
+  .div3{
+    margin-top: -3vh;
+  }
+  
+  .div4{ 
+    margin-top: -3vh;
+  }
+
   .title{
-    top: 2vh;
+    top: -4vh;
   }
   .projects{
-    top: 6vh;
+    display: none;
+    top: 0vh;
+    position: absolute;
     width: 22vh;
   }
   .container3{
@@ -157,24 +244,35 @@ position: relative;
   right: 0;
   width:22vh;
   padding: 2vh;
-  top: 6vh;
+  top: 0vh;
   height: 40vh;
+  opacity: 0;
 }
 .title:hover +.projects + .container3{
   left: 3vh;
-  top: 7.5vh;
+  top: 2vh;
   opacity: 1;
 }
 .projects:hover +.container3{
   left: 3vh;
-  top: 7.5vh;
+  top: 2vh;
   opacity: 1;
 }
 }
 @media only screen and (min-width: 768px) {
+  
   .title{
     border: 0.3vw solid;
   }
+  .div3{
+  top: 6vh;
+}
+
+.div4{
+  top: 6vh;
+}
+
+
 }
 @media only screen and (min-width: 992px) { 
   position: relative;
@@ -185,10 +283,21 @@ position: relative;
   height: 10vh;
 .title{
     position: absolute;
-    left: 30vh;
+    left: 18.5vh;
     top: 0;
     border: .2vw solid;
   }
+  .div3{
+    margin-top:1vh;
+  }
+  .div4{
+    margin-top: 1vh;
+  }
+ 
+.projects-container{
+  left: 0%;
+  margin-left: 11.4vh;
+}
   
 .projects{
     position: absolute;
@@ -196,7 +305,7 @@ position: relative;
     width: 61vh;
     display: none;
     height: 20vh;
-    margin-left: 45.3vh;
+    margin-left: 34vh;
     padding: 0vh;
     
   .link{
@@ -227,16 +336,16 @@ position: relative;
   top: 0vh;
   height: 16vh;
   width: 57vh;
-  margin-left: 45.3vh;
+  margin-left: 34vh;
 }
 .title:hover +.projects + .container3{
-  margin-left: 44.5vh;
+  margin-left: 33vh;
   top: 2vh;
   opacity: 1;
   display: flex;
 }
 .projects:hover +.container3{
-  margin-left: 44.5vh;
+  margin-left: 33vh;
   top: 2vh;
   opacity: 1;
   display: flex;
@@ -250,7 +359,7 @@ position: relative;
     width: 80vh;
     display: none;
     height: 22vh;
-    margin-left: 45.5vh;
+    margin-left: 34vh;
     padding: 0vh;
   .link{
    position: relative;
@@ -281,20 +390,27 @@ position: relative;
   top: 0vh;
   height: 18vh;
   width: 76vh;
-  margin-left: 46vh;
+  margin-left: 34vh;
 }
 .title:hover +.projects + .container3{
-  margin-left: 45vh;
+  margin-left: 33vh;
   top: 2vh;
   opacity: 1;
   display: flex;
 }
 .projects:hover +.container3{
-  margin-left: 45vh;
+  margin-left: 33vh;
   top: 2vh;
   opacity: 1;
   display: flex;
 }
 }
+.div3{
+  top: 4vh;
+}
+.div4{
+  top: 4vh;
+}
+
 
 `

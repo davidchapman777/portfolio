@@ -3,7 +3,7 @@ import pic from '../images/profilepic.jpeg'
 const Header = () => {
     return (
       <Wrapper>    
-        <div className="header">David Chapman / Front-end Developer</div>
+        <div data-text='David Chapman / Front-end Developer'className="header">David Chapman / Front-end Developer</div>
         <div className="container">
           <img src={pic} className='pic' />
           <div className="div1"></div>
@@ -23,14 +23,33 @@ margin: auto;
 width: 99%;
 height: 30vh;
 .header{
-  position: absolute;
-  margin: auto;
-  width: 99.9%;
+  position: relative;
   font-size: 2vh;
+  color: #0726ec;
   left: 0;
   right: 0;
-  bottom: 0;
-  text-align: center;
+  width: 31.5vh;
+  top: 29vh;
+  margin: auto;
+}
+.header::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #04fdf9;
+  border-right: 2px solid;
+  overflow: hidden;
+  animation: animate 10s linear infinite;
+  white-space: nowrap;
+}
+@keyframes animate {
+  0%,10%,100%
+  {width:0%}
+  70%,90%
+  {width:100%}
 }
 .container{
   position: relative;
@@ -123,12 +142,12 @@ z-index: 5;
 }
 .header{
   position: absolute;
-  margin-left: 0vh;
+  margin-left: 4vh;
   font-size: 4vh;
   left: 26vh;
-  top: 10vh;
+  top: 15vh;
   height: 5vh;
-  width: 70vh;
+  width: 63vh;
 }
 }
 @media only screen and (min-width: 1200px) {

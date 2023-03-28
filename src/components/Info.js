@@ -1,14 +1,50 @@
 import styled from "styled-components"
 
 const Info = () => {
-    return (
-      <Wrapper>
+  return (
+    <Wrapper>
         <div className="container">
-          <div className="b">Bio</div>    
+        <div className="b">Bio</div>    
             <div className="p">
                 Hello there! My name is David and I am a self taught front-end developer. I am currently working full time as a critical care nurse but would love to make a full transition into the world of web development. I like to wake up at 4 AM on my off days and work on coding websites. Having the ability to create whatever I can imagine just by typing on a keyboard is astonishing to me and feels like a super power.
             </div>
             <div className="background"></div>
+        <div className="div1">
+      <div className="react">BIO </div>
+          <div className="react">/</div>
+        <div className="react">BIO </div>
+          <div className="react">/</div>
+        <div className="react">BIO </div>
+          <div className="react">/</div>
+        <div className="react">BIO </div>
+          <div className="react">/</div>
+        <div className="react">BIO</div>
+          <div className="react">/</div>
+        <div className="react">BIO</div>
+          <div className="react">/</div>
+        <div className="react">BIO</div>
+          <div className="react">/</div>
+        <div className="react">BIO</div>
+          <div className="react">/</div>
+        </div>
+      <div className="div2">
+        <div className="react">BIO</div>
+          <div className="react">/</div>
+        <div className="react">BIO</div>
+          <div className="react">/</div>
+        <div className="react">BIO</div>
+          <div className="react">/</div>
+        <div className="react">BIO</div>
+          <div className="react">/</div>
+        <div className="react">BIO</div>
+          <div className="react">/</div>
+        <div className="react">BIO</div>
+          <div className="react">/</div>
+        <div className="react">BIO</div>
+          <div className="react">/</div>
+        <div className="react">BIO</div>
+          <div className="react">/</div>
+      </div>
         </div>
       </Wrapper>
   )
@@ -74,13 +110,62 @@ z-index: 4;
   opacity: 1;
   box-shadow: 5px 5px 5px ;
 }
+.div1{
+  position: absolute;
+  animation: my-move1 25s infinite;
+  animation-direction: normal;
+  animation-timing-function:linear;
+  text-align: center;
+  width: 99.9%;
+  display:none;
+  top: 4.5vh;
+  z-index: 0;
+  margin: auto;
+}
+.b:hover + .p + .background +.div1{
+
+  display: flex;
+
+}
+.div2{
+  position: absolute;
+  left: -200vh;
+  animation: my-move 25s infinite;
+  animation-direction: normal;
+  animation-timing-function:linear;
+  text-align: center;
+  display:none;
+  width: 99.9%;
+  top: 4.5vh;
+  z-index: 0;
+  margin: auto;
+}
+.b:hover + .p + .background +.div1 + .div2{
+
+display: flex;
+
+}
+.react{
+  margin: auto;
+  font-size: 3vh;
+}
 
 @media only screen and (min-width: 600px) {
 height: 30vh;
-width: 30vh;
-left: -30%;
+width: 100%;
+.react{
+  margin: auto;
+  font-size: 4vw;
+}
+.b{
+  position: relative;
+  left: -11vh;
+}
+.p{
+
+}
 .b:hover + .p + .background{
-  left: 2vh;
+  left: 3vh;
   top: 7.5vh;
   opacity: 1;
   box-shadow: 5px 5px 5px ;
@@ -97,6 +182,16 @@ left: -30%;
   height: 10vh;
   left: 0;
   z-index: 1;
+  .react{
+  margin: auto;
+  font-size: 4vw;
+}
+.div1{
+  top: 5vh;
+}
+.div2{
+  top: 5vh;
+}
 .container{
     position: absolute;
     top: 0;
@@ -136,7 +231,7 @@ position: absolute;
 .b:hover + .p + .background{
   opacity: 1;
   top: 2vh;
-  margin-left: 47.5vh;
+  margin-left: 46vh;
 }
 }
 @media only screen and (min-width: 1200px) {
@@ -165,8 +260,12 @@ position: absolute;
 .b:hover + .p + .background{
   opacity: 1;
   top: 2vh;
-  margin-left: 47vh;
+  margin-left: 46vh;
 }
+}
+.react{
+  margin: auto;
+  font-size: 2.2vw;
 }
 
 

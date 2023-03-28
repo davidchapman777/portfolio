@@ -60,7 +60,7 @@ export const EmailForm = () => {
 const Wrapper = styled.div`
 text-align: left;
 padding: 1.5vh;
-position: relative;
+position: absolute;
 font-size: 1.9vh;
 height: 29vh;
 .form{
@@ -80,7 +80,6 @@ background: none;
 border: 0.1vw solid #04fdf9;
 color: #04fdf9;
 position: relative;
-top: -1vh;
 height: 3vh;
 width: 20.5vh;
 &:hover{

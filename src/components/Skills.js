@@ -172,7 +172,7 @@ display:none ;
 }
 .react{
   margin: auto;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 .react:hover{
   transform: scale(1.2);
@@ -182,10 +182,13 @@ display:none ;
   100%{left:0%}
 }
 @media only screen and (min-width: 600px) {
-  left: -15%;
   height: 30vh;
   margin: auto;
   top: 10vh;
+  .s{
+    position: relative;
+    left: -11vh;
+  }
   .list{
   left: 0;
   right: 0;
@@ -303,9 +306,7 @@ z-index: 1;
     top: 2vh;
   }
 }
-.react{
-  font-size:3vh ;
-}
+
 }
 
 `

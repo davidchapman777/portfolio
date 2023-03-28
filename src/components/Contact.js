@@ -10,6 +10,38 @@ const Contact = () => {
       <EmailForm/>
       </div>
       <div className="outline2"></div>
+      <div className="div1">
+        <div className="react">CONTACT </div>
+          <div className="react">/</div>
+        <div className="react"> CONTACT</div>
+          <div className="react">/</div>
+        <div className="react">CONTACT </div>
+          <div className="react">/</div>
+        <div className="react">CONTACT </div>
+          <div className="react">/</div>
+        <div className="react">CONTACT</div>
+          <div className="react">/</div>
+        <div className="react">CONTACT</div>
+          <div className="react">/</div>
+        
+        
+        </div>
+      <div className="div2">
+        <div className="react"> CONTACT</div>
+          <div className="react">/</div>
+        <div className="react">CONTACT </div>
+          <div className="react">/</div>
+        <div className="react"> CONTACT</div>
+          <div className="react">/</div>
+        <div className="react">CONTACT </div>
+          <div className="react">/</div>
+        <div className="react"> CONTACT</div>
+          <div className="react">/</div>
+        <div className="react"> CONTACT</div>
+          <div className="react">/</div>
+        
+        
+      </div>
     </Wrapper>
   )
 }
@@ -20,6 +52,7 @@ right: 0;
 margin: auto;
 text-align: center;
 position: relative;
+width: 99%;
 top: 10.5vh;
 span{
 text-decoration: underline;
@@ -41,7 +74,7 @@ z-index: 1;
   top: -10vh;
   width: 29vh;
   height: 35vh;
-  position: absolute;
+  position: relative;
   margin: auto;
   left: 0;
   right: 0;
@@ -75,38 +108,90 @@ z-index: 1;
 }
 .title:hover + .form1 + .outline2{
   left: 3vh;
-  top: -7vh;
+  top: -8vh;
   box-shadow: 10px 10px 10px;
   opacity: 1;
 }
 .form1:hover + .outline2{
   opacity: 1;
   left: 3vh;
-  top: -7vh;
+  top: -8vh;
   box-shadow: 10px 10px 10px;
+}
+
+.div1{
+  position: absolute;
+  animation: my-move1 25s infinite;
+  animation-direction: normal;
+  animation-timing-function:linear;
+  text-align: center;
+  width: 100%;
+  display: none;
+  top: 4vh;
+  z-index: 0;
+}
+.title:hover + .form1 + .outline2 + .div1{
+  display: flex;
+}
+.form1:hover + .outline2 +.div1{
+  display: flex;
+}
+@keyframes my-move1{
+  0%{left:0%};
+  100%{left:100%}
+}
+.div2{
+  position: absolute;
+  left: -200vh;
+  animation: my-move 25s infinite;
+  animation-direction: normal;
+  animation-timing-function:linear;
+  text-align: center;
+  display: none;
+  width: 100%;
+  top: 4vh;
+  z-index: 0;
+}
+.title:hover + .form1 + .outline2 + .div1 + .div2{
+  display: flex;
+}
+.form1:hover + .outline2 +.div1 + .div2{
+  display: flex;
+}
+
+@keyframes my-move{
+  0%{left:-100%};
+  100%{left:0%}
+}
+.react{
+  margin: auto;
+  font-size: 2.5vw;
 }
 
 @media only screen and (min-width: 600px) {
   height: 30vh;
-  width: 30vh;
   position: absolute;
-  top: 40.2vh;
-  left: 30%;
+  top: 40vh;
+  .title{
+    left: 30%;
+  }
   .form1{
     top: 3vh;
+    left: 15%;
+    
   }
   .outline2{
   top: 4vh;
-  left: 0vh;
+  left: 30%;
   right: 0;
 }
 .title:hover + .form1 + .outline2{
-  left: 2vh;
+  left: 33%;
   top: 5.5vh;
 }
 .form1:hover + .outline2{
   opacity: 1;
-  left: 2vh;
+  left: 33%;
   top: 5.5vh;
   
 }
@@ -124,6 +209,7 @@ border: 0.3vw solid;
   left: 0;
   .title{
     position: absolute;
+    left: 0%;
     margin-left: 30vh;
     border: .2vw solid;
   }
@@ -132,6 +218,7 @@ border: 0.3vw solid;
   top: 0vh;
   width: 56vh;
   height: 20vh;
+  left: 0%;
   margin-top: -.1vh;
   margin-left: 46vh;
   position: absolute;
@@ -142,14 +229,15 @@ border: 0.3vw solid;
   margin-left: 46vh;
   width: 56vh;
   height: 20vh;
+  left: 0%;
 }
 .title:hover + .form1 + .outline2{
-  margin-left: 47;
+  left: 2vh;
   top:2vh;
 }
 .form1:hover + .outline2{
   opacity: 1;
-  margin-left: 47;
+  left: 2vh;
   top: 2vh;
 }
 }
@@ -160,23 +248,23 @@ border: 0.3vw solid;
   width: 80vh;
   height: 25vh;
   margin-top: -.1vh;
-  margin-left: 46vh;
+  margin-left: 45.5vh;
   position: absolute;
 }
 .outline2{
   top: 0vh;
   opacity: 0;
-  margin-left: 46vh;
+  margin-left: 45.5vh;
   width: 80vh;
   height: 25vh;
 }
 .title:hover + .form1 + .outline2{
-  margin-left: 47;
+  left:2vh;
   top:2vh;
 }
 .form1:hover + .outline2{
   opacity: 1;
-  margin-left: 47;
+  left: 2vh;
   top: 2vh;
 }
 }
