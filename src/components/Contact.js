@@ -70,7 +70,7 @@ position: absolute;
 z-index: 1;
 }
 .form1{
-  display:none;
+  display:block;
   top: -10vh;
   width: 29vh;
   height: 35vh;
@@ -169,9 +169,9 @@ z-index: 1;
 }
 
 @media only screen and (min-width: 600px) {
-  height: 30vh;
   position: absolute;
   top: 40vh;
+  border: .1vw solid green;
   .title{
     left: 30%;
   }

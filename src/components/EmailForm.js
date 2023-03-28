@@ -62,7 +62,8 @@ text-align: left;
 padding: 1.5vh;
 position: absolute;
 font-size: 1.9vh;
-height: 29vh;
+height: 27vh;
+border: .1vw solid;
 .form{
   height: 100%;
 }
@@ -79,9 +80,10 @@ border-radius: 10px;
 background: none;
 border: 0.1vw solid #04fdf9;
 color: #04fdf9;
-position: relative;
+position: absolute;
 height: 3vh;
 width: 20.5vh;
+bottom: 0vh;
 &:hover{
   background: white;
 }
@@ -91,6 +93,7 @@ width: 20.5vh;
   .submit-btn{
     width: 15vh;
     height: 3vh;
+    position: relative;
   }
 }
 @media only screen and (min-width: 1200px) {

@@ -25,7 +25,7 @@ height: 30vh;
 .header{
   position: relative;
   font-size: 2vh;
-  color: #0726ec;
+  color: #02158f;
   left: 0;
   right: 0;
   width: 31.5vh;
@@ -42,7 +42,7 @@ height: 30vh;
   color: #04fdf9;
   border-right: 2px solid;
   overflow: hidden;
-  animation: animate 10s linear infinite;
+  animation: animate 5s linear infinite;
   white-space: nowrap;
 }
 @keyframes animate {
