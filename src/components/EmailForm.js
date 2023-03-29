@@ -62,8 +62,7 @@ text-align: left;
 padding: 1.5vh;
 position: absolute;
 font-size: 1.9vh;
-height: 27vh;
-border: .1vw solid;
+height: 30vh;
 .form{
   height: 100%;
 }
@@ -83,7 +82,7 @@ color: #04fdf9;
 position: absolute;
 height: 3vh;
 width: 20.5vh;
-bottom: 0vh;
+bottom: 5vh;
 &:hover{
   background: white;
 }
