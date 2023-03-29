@@ -82,7 +82,7 @@ color: #04fdf9;
 position: absolute;
 height: 3vh;
 width: 20.5vh;
-bottom: 5vh;
+bottom: 1vh;
 &:hover{
   background: white;
 }

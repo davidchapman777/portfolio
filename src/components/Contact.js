@@ -70,7 +70,7 @@ position: absolute;
 z-index: 1;
 }
 .form1{
-  display:none;
+  display:block;
   top: -10vh;
   width: 29vh;
   height: 35vh;
