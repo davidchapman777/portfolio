@@ -41,8 +41,10 @@ export const EmailForm = () => {
       <br/>
       <input type='tel' name='phone' className='input'/>
           <br />
-      <label>Your Email</label>
-      <br/>          
+          <br className='br'/>
+          <label>Your Email</label>
+          <br className='br1'/>
+      <br className='br'/>          
       <input type="email" name="from" className='input'/>
       <br/>          
       <label>Message</label>
@@ -63,6 +65,10 @@ padding: 1.5vh;
 position: absolute;
 font-size: 1.9vh;
 height: 30vh;
+.br{
+  display: none;
+}
+
 .form{
   height: 100%;
 }
@@ -87,8 +93,32 @@ bottom: 1vh;
   background: white;
 }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 850px) and (orientation: landscape) {
   columns: 2;
+  column-gap: 17vh;
+  font-size: 3vh;
+  .br{
+    display: block;
+  }
+  .br1{
+    display: none;
+  }
+  .submit-btn{
+    width: 40vh;
+    height: 4vh;
+    position: absolute;
+    bottom: 5vh;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+  .input{
+  width: 40vh;
+  height: 5vh;
+}
+
+}
+@media only screen and (min-width: 992px) {
   .submit-btn{
     width: 15vh;
     height: 3vh;

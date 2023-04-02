@@ -80,7 +80,6 @@ left: -20px;
   height: 20vh;
   left: 0;
   z-index: 2;
-  outline: .1vw solid ;
   box-shadow: 5px 5px 5px black;
   border-radius: 5%;
   animation: move2 3s infinite;
@@ -107,6 +106,42 @@ left: -20px;
 }
 @media only screen and (min-width: 768px) {
 }
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+  z-index: 5;
+.container{
+  position: absolute;
+  height: 32vh;
+  width: 22vh;
+  top: 10vh;
+  left: 10vh;
+}
+.pic{
+  width: 35vh;
+  height: 40vh;
+  transition: 1s;
+}
+.div1{
+  transition: 1s;
+  width: 35vh;
+  height: 40vh;
+  left: 0;
+}
+.div2{
+  height: 40vh;
+  width: 35vh;
+  left: 0;
+}
+.header{
+  position: absolute;
+  margin-left: 4vh;
+  font-size: 7vh;
+  left: 50vh;
+  top: 15vh;
+  height: 10vh;
+  width: 115vh;
+}
+}
+
 @media only screen and (min-width: 992px) {
 z-index: 5;
 .container{

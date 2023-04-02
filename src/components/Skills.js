@@ -241,6 +241,49 @@ top: 8vh;
   }
 }
 }
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+  top: 12vh;
+  right: 5vh;
+  .s{
+  width: 40vh;
+  height: 6vh;
+  margin-bottom: 3vh;
+  border: 0.1vw solid;
+  padding-top: 1vh;
+}
+.div1{
+top: -7vh;
+}
+.div2{
+top: -7vh;
+}
+.list{
+width: 110vh;
+height: 28vh;
+font-size: 2vh;
+left: 30vh;
+right: 0;
+top: 0vh;
+}
+.outline{
+  left: 30vh;
+  right: 0;
+  top: 0vh;
+  width: 110vh;
+  height: 28vh;
+}
+.s:hover + .container{
+  .outline{
+    left: 36vh;
+    top: 3vh;
+  }
+}
+.ul{
+  columns: 3;
+  font-size: 3vh;
+}
+}
+
 @media only screen and (min-width: 992px) {
   position: relative;
   left: 0;

@@ -176,6 +176,52 @@ width: 100%;
     border: 0.3vw solid;
   }
 }
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+  left: -10vh;
+  top: 25vh;
+  
+  .b{
+border: 0.1vw solid;
+padding-top: 1vh;
+width: 40vh;
+height: 6vh;
+margin: auto;
+border-radius: 5px;
+margin-bottom: 2vh;
+z-index: 4;
+}
+.p{
+  border: 0.1vw solid;
+  width: 110vh;
+  height: 32vh;
+  font-size: 3.7vh;
+  left: 30vh;
+  right: 0;
+  top: 15vh;
+}
+.b:hover + .p{
+  display: block;
+}
+.background{
+  width: 112vh;
+  height: 34vh;
+  border: .1vw solid ;
+  left: 30vh;
+  right: 0;
+  top: 10vh;
+}
+.b:hover + .p + .background{
+  left: 36vh;
+  top: 18vh;
+  opacity: 1;
+}
+.div1{
+  top: 8vh;
+}
+.div2{
+  top: 8vh;
+}
+}
 @media only screen and (min-width: 992px) {
   position: relative;
   width: 99%;

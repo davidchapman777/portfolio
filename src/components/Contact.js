@@ -200,6 +200,45 @@ z-index: 1;
 border: 0.3vw solid;
 }
 }
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+  top: 42vh;
+  left: 5vh;
+  .title{
+    width: 40vh;
+    height: 6vh;
+    border: 0.1vw solid;
+    padding-top: 1vh;
+  }
+  .form1{
+  z-index: 3;
+  top: -1vh;
+  width: 110vh;
+  height: 35vh;
+  position: absolute;
+  left: 10vh;
+}
+.outline2{
+  top: -1vh;
+  width: 110vh;
+  height: 35vh;
+  left:10vh;
+}
+.title:hover + .form1 + .outline2{
+  left: 16vh;
+  top:3vh;
+}
+.form1:hover + .outline2{
+  opacity: 1;
+  left: 16vh;
+  top: 3vh;
+}
+.div1{
+top: -7vh;
+}
+.div2{
+top: -7vh;
+}
+}
 @media only screen and (min-width: 992px) {
   position: relative;
   top: 0;
