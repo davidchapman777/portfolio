@@ -43,22 +43,25 @@ const Skills = () => {
       </div>
       <div className="list">
           <ul className="ul">
-            <li className="li">HTML</li>
-            <li className="li">Javascript/ES6</li>
-            <li className="li">CSS</li>
-            <li className="li">React</li>
-            <li className="li">API's</li>
-            <li className="li">Node.js</li>
-            <li className="li">MongoDB</li>
-            <li className="li">MERN</li>
-            <li className="li">GitHub</li>
-            <li className="li">Netlify</li>
+            <li>HTML</li>
+            <li>Javascript/ES6</li>
+            <li>CSS</li>
+            <li>React</li>
+            <li>API's</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>MERN</li>
+            <li>GitHub</li>
+            <li>Netlify</li>
             <li>Render</li>
             <li>Styled-Components</li>
+            <li>Firebase</li>
+            <li>Auth0</li>
             <li>Communication</li>
             <li>Leadership</li>
             <li>Critical Thinking</li>
-            <li>Adaptability</li>
+            <li>Adaptable</li>
+            <li>Time Management</li>
           </ul>
         </div>
         <div className="outline"></div>
@@ -87,7 +90,7 @@ position: relative;
 .list{
 position: absolute;
 width: 36vh;
-height: 28vh;
+height: 30vh;
 border: 0.1vw solid;
 font-size: 2vh;
 left: 0;
@@ -106,7 +109,7 @@ display:none ;
   right: 0;
   top: 6.3vh;
   width: 36vh;
-  height: 28vh;
+  height: 30vh;
   border: .1vw solid;
   border-radius: 10px;
   opacity: 0;

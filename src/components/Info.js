@@ -6,7 +6,7 @@ const Info = () => {
         <div className="container">
         <div className="b">Bio</div>    
             <div className="p">
-                Hello there! My name is David and I am a self taught front-end developer. I am currently working full time as a critical care nurse but would love to make a full transition into the world of web development. I like to wake up at 4 AM on my off days and work on coding websites. Having the ability to create whatever I can imagine just by typing on a keyboard is astonishing to me and feels like a super power.
+                Hey there! My name is David and I'm a self taught front-end developer. Formerly, I was a paratrooper in the U.S. Army and currently work full time as a nurse. When Im not saving lives in the ICU I wake up at 4 am on my off days and start coding a new project. Creating anything out of nothing, coding makes me feel like a super hero. In order to pursue my passion I am seeking the opportunity of becoming a full-time developer. Feel free to contact me if you are interested in helping me attain this opportunity.
             </div>
             <div className="background"></div>
         <div className="div1">
@@ -57,6 +57,7 @@ right: 0;
 margin: auto;
 text-align: center;
 position: absolute;
+
 .container{
   position: relative;
   top: 2vh;
@@ -75,7 +76,7 @@ z-index: 4;
   z-index: 4;
   border: 0.1vw solid;
   width: 30vh;
-  height: 32vh;
+  height: 37vh;
   margin: auto;
   position: absolute;
   font-size: 2vh;
@@ -85,6 +86,7 @@ z-index: 4;
   padding: 1vh;
   background: #00006a;
   display: none;
+  text-align:justify;
 }
 .b:hover + .p{
   display: block;
@@ -92,7 +94,7 @@ z-index: 4;
 .background{
   z-index: 0;
   width: 32vh;
-  height: 34vh;
+  height: 39vh;
   border: .1vw solid ;
   position: absolute;
   margin: auto;
@@ -147,7 +149,7 @@ display: flex;
 }
 .react{
   margin: auto;
-  font-size: 3vh;
+  font-size: ;
 }
 
 @media only screen and (min-width: 600px) {
@@ -155,7 +157,7 @@ height: 30vh;
 width: 100%;
 .react{
   margin: auto;
-  font-size: 4vw;
+  font-size:4vh;
 }
 .b{
   position: relative;
@@ -193,26 +195,27 @@ z-index: 4;
 .p{
   border: 0.1vw solid;
   width: 110vh;
-  height: 32vh;
+  height: 37vh;
+  padding:2vh;
   font-size: 3.7vh;
   left: 30vh;
   right: 0;
-  top: 15vh;
+  top: 13vh;
 }
 .b:hover + .p{
   display: block;
 }
 .background{
   width: 112vh;
-  height: 34vh;
+  height: 40vh;
   border: .1vw solid ;
   left: 30vh;
   right: 0;
-  top: 10vh;
+  top: 8vh;
 }
 .b:hover + .p + .background{
-  left: 36vh;
-  top: 18vh;
+  left: 37vh;
+  top: 17vh;
   opacity: 1;
 }
 .div1{
@@ -257,7 +260,7 @@ position: absolute;
   margin-left: 47vh;
   width: 50vh;
   display: none;
-  height: 20vh;
+  height: 25vh;
   font-size: 2.2vh;
   transition: .5s;
   top: 0vh;
@@ -271,7 +274,7 @@ position: absolute;
   opacity: 0;
   top: 0vh;
   width: 52vh;
-  height: 22vh;
+  height: 27vh;
   margin-left: 47vh;
 }
 .b:hover + .p + .background{

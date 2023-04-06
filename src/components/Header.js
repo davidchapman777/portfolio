@@ -61,11 +61,12 @@ height: 30vh;
 .pic{
   position: absolute;
   width: 15vh;
+  height:20vh;
   left: 0;
   border-radius: 5%;
   z-index: 3;
   box-shadow: 5px 5px 5px black;
-  animation: move1 3s infinite;
+  animation: move1 3s infinite linear;
   animation-direction: alternate;
 }
 @keyframes move1{
@@ -82,7 +83,7 @@ left: -20px;
   z-index: 2;
   box-shadow: 5px 5px 5px black;
   border-radius: 5%;
-  animation: move2 3s infinite;
+  animation: move2 3s infinite linear;
   animation-direction: alternate;
   background: white;
 }
