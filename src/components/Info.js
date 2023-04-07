@@ -6,7 +6,7 @@ const Info = () => {
         <div className="container">
         <div className="b">Bio</div>    
             <div className="p">
-                Hey there! My name is David and I'm a self taught front-end developer. Formerly, I was a paratrooper in the U.S. Army and currently work full time as a nurse. When Im not saving lives in the ICU I wake up at 4 am on my off days and start coding a new project. Creating anything out of nothing, coding makes me feel like a super hero. In order to pursue my passion I am seeking the opportunity of becoming a full-time developer. Feel free to contact me if you are interested in helping me attain this opportunity.
+               Greetings! My name is David Chapman and I am a dedicated, self-instructed front-end developer. I am currently employed full time as a registered nurse. Prior to my nursing experience, I was a paratrooper for the U.S. Army. For Approximately one year, in between my nursing shifts, I have been totally dedicated to improving my skills as a developer. I am seeking an opportunity to exhibit these skills and step into a new career as a full time developer. I am excited about the possibility to join your team. Please contact me if you have any questions. 
             </div>
             <div className="background"></div>
         <div className="div1">
@@ -76,7 +76,7 @@ z-index: 4;
   z-index: 4;
   border: 0.1vw solid;
   width: 30vh;
-  height: 37vh;
+  height: 40vh;
   margin: auto;
   position: absolute;
   font-size: 2vh;
@@ -94,7 +94,7 @@ z-index: 4;
 .background{
   z-index: 0;
   width: 32vh;
-  height: 39vh;
+  height: 42vh;
   border: .1vw solid ;
   position: absolute;
   margin: auto;
