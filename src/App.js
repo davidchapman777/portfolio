@@ -5,19 +5,29 @@ import {
   Contact,
   Projects,
   Skills,
-  Ship
+  Ship,
+  Resume
 } from "./components";
+import { BrowserRouter,Routes, Route } from "react-router-dom";
 function App() {
   return (
     <Wrapper>
-    <div>
-      <Header />
-      <Info />
-      <Skills/>
-      <Projects />
-      <Contact />
-      <Ship/>
-    </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={ 
+            <div>
+            <Header />
+            <Info />
+            <Skills/>
+            <Projects />
+            <Contact />
+            <Ship/>
+          </div>
+          } />
+          <Route path="/resume" element={ <Resume/>} />
+        </Routes>
+      </BrowserRouter>
+    
     </Wrapper>
   );
 }

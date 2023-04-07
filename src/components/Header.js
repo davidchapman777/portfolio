@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import pic from '../images/profilepic.jpeg'
+import { Link } from "react-router-dom"
 const Header = () => {
     return (
       <Wrapper>    
@@ -9,6 +10,7 @@ const Header = () => {
           <div className="div1"></div>
           <div className="div2"></div>
         </div>
+        <Link to='resume' className="resume">Resume</Link>
       </Wrapper>
   )
 }
@@ -22,6 +24,26 @@ right: 0;
 margin: auto;
 width: 99%;
 height: 30vh;
+.resume{
+  position: relative;
+  text-decoration:none;
+  color:#04fdf9;
+  border: .4vw solid ;
+  width: 15vh;
+  height: 3vh;
+  border-radius:5px;
+  display:block;
+  text-align:center;
+  padding-top: 0.5vh;
+  top:35.5vh;
+  margin: auto;
+  z-index:1;
+}
+.resume:hover{
+  background:#04fdf9 ;
+  color:#02158f;
+
+}
 .header{
   position: relative;
   font-size: 2vh;
@@ -105,10 +127,21 @@ left: -20px;
 
 @media only screen and (min-width: 600px) {
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
+  .resume{
+    top:25vh;
+    border: .3vw solid;
+  }
 }
 @media only screen and (max-width: 850px) and (orientation: landscape) {
   z-index: 5;
+  .resume{
+    top:57vh;
+    left:9vh;
+    border: .1vw solid;
+    width: 40vh;
+    height: 6vh;
+  }
 .container{
   position: absolute;
   height: 32vh;
@@ -145,6 +178,11 @@ left: -20px;
 
 @media only screen and (min-width: 992px) {
 z-index: 5;
+.resume{
+    top:70vh;
+    margin-left:30vh;
+    border: .2vw solid;
+  }
 .container{
   position: absolute;
   height: 32vh;
